@@ -1,0 +1,453 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>대한민국 국회 본회의장</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="raphael.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+        window.onload = function () {
+            var R = Raphael("paper", 600, 420); //300, 300
+            var attr = {
+                fill: "#333",
+                stroke: "#666",
+                "stroke-width": 1,
+                "stroke-linejoin": "round"
+            };
+            window.aus = {};
+aus.m0 = R.path("M261,228,255,247,265,251,271,231z").attr(attr);
+aus.m1 = R.path("M280,337,274,356,284,360,290,340z").attr(attr);
+aus.m2 = R.path("M421,214,435,227,442,220,428,206z").attr(attr);
+aus.m3 = R.path("M66,191,74,200,89,188,81,179z").attr(attr);
+aus.m4 = R.path("M357,224,362,243,372,240,367,221z").attr(attr);
+aus.m5 = R.path("M260,202,254,221,264,225,270,205z").attr(attr);
+aus.m6 = R.path("M248,173,242,192,252,196,258,176z").attr(attr);
+aus.m7 = R.path("M269,153,263,172,273,176,279,156z").attr(attr);
+aus.m8 = R.path("M504,83,523,85,522,97,502,94z").attr(attr);
+aus.m9 = R.path("M306,186,311,205,321,202,316,183z").attr(attr);
+aus.m10 = R.path("M157,257,165,266,180,254,172,245z").attr(attr);
+aus.m11 = R.path("M332,206,337,225,347,222,342,203z").attr(attr);
+aus.m12 = R.path("M526,96,545,98,544,110,524,107z").attr(attr);
+aus.m13 = R.path("M285,260,279,279,289,283,295,263z").attr(attr);
+aus.m14 = R.path("M483,64,502,66,501,78,481,75z").attr(attr);
+aus.m15 = R.path("M396,204,410,217,417,210,403,196z").attr(attr);
+aus.m16 = R.path("M490,170,504,183,511,176,497,162z").attr(attr);
+aus.m17 = R.path("M190,313,184,332,194,336,200,316z").attr(attr);
+aus.m18 = R.path("M166,267,174,276,189,264,181,255z").attr(attr);
+aus.m20 = R.path("M499,161,513,174,520,167,506,153z").attr(attr);
+aus.m21 = R.path("M457,76,476,78,475,90,455,87z").attr(attr);
+aus.m22 = R.path("M222,244,216,263,226,267,232,247z").attr(attr);
+aus.m23 = R.path("M478,96,497,98,496,110,476,107z").attr(attr);
+aus.m24 = R.path("M370,125,384,138,391,131,377,117z").attr(attr);
+aus.m25 = R.path("M447,258,461,271,468,264,454,250z").attr(attr);
+aus.m26 = R.path("M248,224,242,243,252,247,258,227z").attr(attr);
+aus.m28 = R.path("M385,184,399,197,406,190,392,176z").attr(attr);
+aus.m29 = R.path("M215,268,209,287,219,291,225,271z").attr(attr);
+aus.m30 = R.path("M541,180,555,193,562,186,548,172z").attr(attr);
+aus.m31 = R.path("M247,302,241,321,251,325,257,305z").attr(attr);
+aus.m32 = R.path("M184,180,192,189,207,177,199,168z").attr(attr);
+aus.m34 = R.path("M280,284,274,303,284,307,290,287z").attr(attr);
+aus.m35 = R.path("M253,278,247,297,257,301,263,281z").attr(attr);
+aus.m36 = R.path("M274,232,268,251,278,255,284,235z").attr(attr);
+aus.m37 = R.path("M389,294,394,313,404,310,399,291z").attr(attr);
+aus.m38 = R.path("M430,79,449,81,448,93,428,90z").attr(attr);
+aus.m39 = R.path("M96,189,104,198,119,186,111,177z").attr(attr);
+aus.m40 = R.path("M253,119,238,131,246,141,260,129z").attr(attr);
+aus.m41 = R.path("M257,149,251,168,261,172,267,152z").attr(attr);
+aus.m42 = R.path("M551,93,570,95,569,107,549,104z").attr(attr);
+aus.m46 = R.path("M270,128,264,147,274,151,280,131z").attr(attr);
+aus.m47 = R.path("M357,199,362,218,372,215,367,196z").attr(attr);
+aus.m48 = R.path("M352,145,366,158,373,151,359,137z").attr(attr);
+aus.m49 = R.path("M187,286,181,305,191,309,197,289z").attr(attr);
+aus.m50 = R.path("M388,141,402,154,409,147,395,133z").attr(attr);
+aus.m51 = R.path("M516,247,530,260,537,253,523,239z").attr(attr);
+aus.m52 = R.path("M480,81,499,83,498,95,478,92z").attr(attr);
+aus.m53 = R.path("M406,121,420,134,427,127,413,113z").attr(attr);
+aus.m54 = R.path("M411,153,425,166,432,159,418,145z").attr(attr);
+aus.m55 = R.path("M377,349,382,368,392,365,387,346z").attr(attr);
+aus.m56 = R.path("M411,226,425,239,432,232,418,218z").attr(attr);
+aus.m57 = R.path("M387,214,401,227,408,220,394,206z").attr(attr);
+aus.m58 = R.path("M260,177,254,196,264,200,270,180z").attr(attr);
+aus.m59 = R.path("M438,269,452,282,459,275,445,261z").attr(attr);
+aus.m60 = R.path("M306,315,311,334,321,331,316,312z").attr(attr);
+aus.m62 = R.path("M492,275,506,288,513,281,499,267z").attr(attr);
+aus.m63 = R.path("M226,296,220,315,230,319,236,299z").attr(attr);
+aus.m64 = R.path("M354,354,359,373,369,370,364,351z").attr(attr);
+aus.m65 = R.path("M114,209,122,218,137,206,129,197z").attr(attr);
+aus.m66 = R.path("M393,174,407,187,414,180,400,166z").attr(attr);
+aus.m68 = R.path("M318,312,323,331,333,328,328,309z").attr(attr);
+aus.m69 = R.path("M415,184,429,197,436,190,422,176z").attr(attr);
+aus.m71 = R.path("M213,293,207,312,217,316,223,296z").attr(attr);
+aus.m73 = R.path("M497,119,516,121,515,133,495,130z").attr(attr);
+aus.m75 = R.path("M460,62,479,64,478,76,458,73z").attr(attr);
+aus.m76 = R.path("M463,202,477,215,484,208,470,194z").attr(attr);
+aus.m77 = R.path("M519,170,533,183,540,176,526,162z").attr(attr);
+aus.m78 = R.path("M149,281,157,290,172,278,164,269z").attr(attr);
+aus.m79 = R.path("M345,175,350,194,360,191,355,172z").attr(attr);
+aus.m80 = R.path("M187,220,195,229,210,217,202,208z").attr(attr);
+aus.m81 = R.path("M401,290,406,309,416,306,411,287z").attr(attr);
+aus.m82 = R.path("M507,222,521,235,528,228,514,214z").attr(attr);
+aus.m83 = R.path("M338,359,343,378,353,375,348,356z").attr(attr);
+aus.m84 = R.path("M15,203,23,212,38,200,30,191z").attr(attr);
+aus.m86 = R.path("M309,288,314,307,324,304,319,285z").attr(attr);
+aus.m88 = R.path("M346,202,351,221,361,218,356,199z").attr(attr);
+aus.m88 = R.path("M307,135,312,154,322,151,317,132z").attr(attr);
+aus.m89 = R.path("M339,123,353,136,360,129,346,115z").attr(attr);
+aus.m90 = R.path("M165,332,159,351,169,355,175,335z").attr(attr);
+aus.m91 = R.path("M272,180,266,199,276,203,282,183z").attr(attr);
+aus.m92 = R.path("M433,65,452,67,451,79,431,76z").attr(attr);
+aus.m93 = R.path("M452,324,466,337,473,330,459,316z").attr(attr);
+aus.m94 = R.path("M283,132,277,151,287,155,293,135z").attr(attr);
+aus.m95 = R.path("M272,257,266,276,276,280,282,260z").attr(attr);
+aus.m96 = R.path("M431,239,445,252,452,245,438,231z").attr(attr);
+aus.m97 = R.path("M77,202,85,211,100,199,92,190z").attr(attr);
+aus.m99 = R.path("M259,253,253,272,263,276,269,256z").attr(attr);
+aus.m100 = R.path("M305,161,310,180,320,177,315,158z").attr(attr);
+aus.m101 = R.path("M102,159,110,168,125,156,117,147z").attr(attr);
+aus.m103 = R.path("M553,79,572,81,571,93,551,90z").attr(attr);
+aus.m104 = R.path("M228,121,236,130,251,118,243,109z").attr(attr);
+aus.m105 = R.path("M464,273,478,286,485,279,471,265z").attr(attr);
+aus.m106 = R.path("M134,159,142,168,157,156,149,147z").attr(attr);
+aus.m107 = R.path("M420,143,434,156,441,149,427,135z").attr(attr);
+aus.m108 = R.path("M284,183,278,202,288,206,294,186z").attr(attr);
+aus.m109 = R.path("M59,220,67,229,82,217,74,208z").attr(attr);
+aus.m110 = R.path("M330,309,335,328,345,325,340,306z").attr(attr);
+aus.m111 = R.path("M156,222,164,231,179,219,171,210z").attr(attr);
+aus.m112 = R.path("M455,284,469,297,476,290,462,276z").attr(attr);
+aus.m113 = R.path("M414,312,419,331,429,328,424,309z").attr(attr);
+aus.m114 = R.path("M180,336,174,355,184,359,190,339z").attr(attr);
+aus.m116 = R.path("M424,174,438,187,445,180,431,166z").attr(attr);
+aus.m117 = R.path("M481,217,495,230,502,223,488,209z").attr(attr);
+aus.m118 = R.path("M266,281,260,300,270,304,276,284z").attr(attr);
+aus.m119 = R.path("M331,153,336,172,346,169,341,150z").attr(attr);
+aus.m120 = R.path("M422,250,436,263,443,256,429,242z").attr(attr);
+aus.m121 = R.path("M194,117,202,126,217,114,209,105z").attr(attr);
+aus.m122 = R.path("M201,264,195,283,205,287,211,267z").attr(attr);
+aus.m123 = R.path("M267,333,261,352,271,356,277,336z").attr(attr);
+aus.m124 = R.path("M124,328,132,337,147,325,139,316z").attr(attr);
+aus.m126 = R.path("M147,211,155,220,170,208,162,199z").attr(attr);
+aus.m127 = R.path("M365,300,370,319,380,316,375,297z").attr(attr);
+aus.m129 = R.path("M430,204,444,217,451,210,437,196z").attr(attr);
+aus.m130 = R.path("M444,186,458,199,465,192,451,178z").attr(attr);
+aus.m131 = R.path("M142,169,150,178,165,166,157,157z").attr(attr);
+aus.m132 = R.path("M78,241,86,250,101,238,93,229z").attr(attr);
+aus.m133 = R.path("M437,305,451,318,458,311,444,297z").attr(attr);
+aus.m134 = R.path("M318,234,323,253,333,250,328,231z").attr(attr);
+aus.m135 = R.path("M482,288,496,301,503,294,489,280z").attr(attr);
+aus.m136 = R.path("M111,170,119,179,134,167,126,158z").attr(attr);
+aus.m138 = R.path("M433,164,447,177,454,170,440,156z").attr(attr);
+aus.m139 = R.path("M483,251,497,264,504,257,490,243z").attr(attr);
+aus.m140 = R.path("M556,65,575,67,574,79,554,76z").attr(attr);
+aus.m141 = R.path("M203,316,197,335,207,339,213,319z").attr(attr);
+aus.m142 = R.path("M546,121,565,123,564,135,544,132z").attr(attr);
+aus.m143 = R.path("M529,81,548,83,547,95,527,92z").attr(attr);
+aus.m144 = R.path("M380,151,394,164,401,157,387,143z").attr(attr);
+aus.m145 = R.path("M286,312,280,331,290,335,296,315z").attr(attr);
+aus.m146 = R.path("M170,127,178,136,193,124,185,115z").attr(attr);
+aus.m147 = R.path("M179,138,187,147,202,135,194,126z").attr(attr);
+aus.m148 = R.path("M169,200,177,209,192,197,184,188z").attr(attr);
+aus.m149 = R.path("M533,190,547,203,554,196,540,182z").attr(attr);
+aus.m150 = R.path("M281,157,275,176,285,180,291,160z").attr(attr);
+aus.m151 = R.path("M322,285,327,304,337,301,332,282z").attr(attr);
+aus.m152 = R.path("M248,198,242,217,252,221,258,201z").attr(attr);
+aus.m153 = R.path("M440,229,454,242,461,235,447,221z").attr(attr);
+aus.m154 = R.path("M380,115,394,128,401,121,387,107z").attr(attr);
+aus.m155 = R.path("M130,261,138,270,153,258,145,249z").attr(attr);
+aus.m156 = R.path("M178,210,186,219,201,207,193,198z").attr(attr);
+aus.m157 = R.path("M473,299,487,312,494,305,480,291z").attr(attr);
+aus.m158 = R.path("M213,139,221,148,236,136,228,127z").attr(attr);
+aus.m159 = R.path("M221,216,215,235,225,239,231,219z").attr(attr);
+aus.m160 = R.path("M544,135,563,137,562,149,542,146z").attr(attr);
+aus.m161 = R.path("M140,271,148,280,163,268,155,259z").attr(attr);
+aus.m162 = R.path("M320,131,325,150,335,147,330,128z").attr(attr);
+aus.m163 = R.path("M344,227,349,246,359,243,354,224z").attr(attr);
+aus.m164 = R.path("M359,275,364,294,374,291,369,272z").attr(attr);
+aus.m165 = R.path("M61,256,69,265,84,253,76,244z").attr(attr);
+aus.m167 = R.path("M558,195,572,208,579,201,565,187z").attr(attr);
+aus.m168 = R.path("M475,112,494,114,493,126,473,123z").attr(attr);
+aus.m169 = R.path("M385,268,390,287,400,284,395,265z").attr(attr);
+aus.m170 = R.path("M481,180,495,193,502,186,488,172z").attr(attr);
+aus.m171 = R.path("M490,206,504,219,511,212,497,198z").attr(attr);
+aus.m172 = R.path("M452,142,466,155,473,148,459,134z").attr(attr);
+aus.m173 = R.path("M376,193,390,206,397,199,383,185z").attr(attr);
+aus.m174 = R.path("M223,151,231,160,246,148,238,139z").attr(attr);
+aus.m175 = R.path("M112,278,120,287,135,275,127,266z").attr(attr);
+aus.m176 = R.path("M308,341,313,360,323,357,318,338z").attr(attr);
+aus.m177 = R.path("M193,191,201,200,216,188,208,179z").attr(attr);
+aus.m178 = R.path("M95,224,103,233,118,221,110,212z").attr(attr);
+aus.m179 = R.path("M501,266,515,279,522,272,508,258z").attr(attr);
+aus.m180 = R.path("M406,194,420,207,427,200,413,186z").attr(attr);
+aus.m181 = R.path("M361,135,375,148,382,141,368,127z").attr(attr);
+aus.m182 = R.path("M499,194,513,207,520,200,506,186z").attr(attr);
+aus.m183 = R.path("M260,305,254,324,264,328,270,308z").attr(attr);
+aus.m184 = R.path("M318,157,323,176,333,173,328,154z").attr(attr);
+aus.m185 = R.path("M407,74,426,76,425,88,405,85z").attr(attr);
+aus.m186 = R.path("M56,180,64,189,79,177,71,168z").attr(attr);
+aus.m187 = R.path("M331,231,336,250,346,247,341,228z").attr(attr);
+aus.m188 = R.path("M473,153,487,166,494,159,480,145z").attr(attr);
+aus.m189 = R.path("M531,65,550,67,549,79,529,76z").attr(attr);
+aus.m190 = R.path("M410,60,429,62,428,74,408,71z").attr(attr);
+aus.m191 = R.path("M443,152,457,165,464,158,450,144z").attr(attr);
+aus.m192 = R.path("M283,363,277,382,287,386,293,366z").attr(attr);
+aus.m193 = R.path("M200,289,194,308,204,312,210,292z").attr(attr);
+aus.m194 = R.path("M446,296,460,309,467,302,453,288z").attr(attr);
+aus.m195 = R.path("M452,106,471,108,470,120,450,117z").attr(attr);
+aus.m196 = R.path("M393,345,398,364,408,361,403,342z").attr(attr);
+aus.m197 = R.path("M114,317,122,326,137,314,129,305z").attr(attr);
+aus.m198 = R.path("M32,188,40,197,55,185,47,176z").attr(attr);
+aus.m199 = R.path("M413,261,427,274,434,267,420,253z").attr(attr);
+aus.m201 = R.path("M401,237,415,250,422,243,408,229z").attr(attr);
+aus.m202 = R.path("M429,133,443,146,450,139,436,125z").attr(attr);
+aus.m203 = R.path("M400,317,405,336,415,333,410,314z").attr(attr);
+aus.m204 = R.path("M429,281,443,294,450,287,436,273z").attr(attr);
+aus.m205 = R.path("M87,179,95,188,110,176,102,167z").attr(attr);
+aus.m206 = R.path("M273,308,267,327,277,331,283,311z").attr(attr);
+aus.m208 = R.path("M516,211,530,224,537,217,523,203z").attr(attr);
+aus.m209 = R.path("M509,182,523,195,530,188,516,174z").attr(attr);
+aus.m210 = R.path("M254,329,248,348,258,352,264,332z").attr(attr);
+aus.m211 = R.path("M177,310,171,329,181,333,187,313z").attr(attr);
+aus.m212 = R.path("M455,90,474,92,473,104,453,101z").attr(attr);
+aus.m213 = R.path("M342,305,347,324,357,321,352,302z").attr(attr);
+aus.m214 = R.path("M237,349,231,368,241,372,247,352z").attr(attr);
+aus.m215 = R.path("M520,128,539,130,538,142,518,139z").attr(attr);
+aus.m216 = R.path("M424,337,429,356,439,353,434,334z").attr(attr);
+aus.m217 = R.path("M548,107,567,109,566,121,546,118z").attr(attr);
+aus.m218 = R.path("M197,157,205,166,220,154,212,145z").attr(attr);
+aus.m219 = R.path("M499,232,513,245,520,238,506,224z").attr(attr);
+aus.m220 = R.path("M210,344,204,363,214,367,220,347z").attr(attr);
+aus.m221 = R.path("M41,199,49,208,64,196,56,187z").attr(attr);
+aus.m222 = R.path("M318,261,323,280,333,277,328,258z").attr(attr);
+aus.m223 = R.path("M372,272,377,291,387,288,382,269z").attr(attr);
+aus.m224 = R.path("M377,297,382,316,392,313,387,294z").attr(attr);
+aus.m225 = R.path("M234,220,228,239,238,243,244,223z").attr(attr);
+aus.m226 = R.path("M121,288,129,297,144,285,136,276z").attr(attr);
+aus.m227 = R.path("M148,247,156,256,171,244,163,235z").attr(attr);
+aus.m228 = R.path("M405,88,424,90,423,102,403,99z").attr(attr);
+aus.m229 = R.path("M284,208,278,227,288,231,294,211z").attr(attr);
+aus.m230 = R.path("M235,195,229,214,239,218,245,198z").attr(attr);
+aus.m231 = R.path("M331,257,336,276,346,273,341,254z").attr(attr);
+aus.m232 = R.path("M397,131,411,144,418,137,404,123z").attr(attr);
+aus.m233 = R.path("M428,93,447,95,446,107,426,104z").attr(attr);
+aus.m234 = R.path("M305,264,310,283,320,280,315,261z").attr(attr);
+aus.m235 = R.path("M206,166,214,175,229,163,221,154z").attr(attr);
+aus.m236 = R.path("M500,101,519,103,518,115,498,112z").attr(attr);
+aus.m237 = R.path("M550,205,564,218,571,211,557,197z").attr(attr);
+aus.m239 = R.path("M466,236,480,249,487,242,473,228z").attr(attr);
+aus.m240 = R.path("M402,164,416,177,423,170,409,156z").attr(attr);
+aus.m241 = R.path("M379,244,384,263,394,260,389,241z").attr(attr);
+aus.m242 = R.path("M139,309,147,318,162,306,154,297z").attr(attr);
+aus.m243 = R.path("M454,175,468,188,475,181,461,167z").attr(attr);
+aus.m244 = R.path("M525,200,539,213,546,206,532,192z").attr(attr);
+aus.m245 = R.path("M542,215,556,228,563,221,549,207z").attr(attr);
+aus.m246 = R.path("M371,161,385,174,392,167,378,153z").attr(attr);
+aus.m247 = R.path("M305,238,310,257,320,254,315,235z").attr(attr);
+aus.m248 = R.path("M362,171,376,184,383,177,369,163z").attr(attr);
+aus.m249 = R.path("M457,245,471,258,478,251,464,237z").attr(attr);
+aus.m250 = R.path("M524,237,538,250,545,243,531,229z").attr(attr);
+aus.m251 = R.path("M241,325,235,344,245,348,251,328z").attr(attr);
+aus.m252 = R.path("M449,220,463,233,470,226,456,212z").attr(attr);
+aus.m253 = R.path("M524,112,543,114,542,126,522,123z").attr(attr);
+aus.m254 = R.path("M332,179,337,198,347,195,342,176z").attr(attr);
+aus.m255 = R.path("M534,226,548,239,555,232,541,218z").attr(attr);
+aus.m257 = R.path("M353,251,358,270,368,267,363,248z").attr(attr);
+aus.m258 = R.path("M160,190,168,199,183,187,175,178z").attr(attr);
+aus.m259 = R.path("M147,138,155,147,170,135,162,126z").attr(attr);
+aus.m260 = R.path("M371,324,376,343,386,340,381,321z").attr(attr);
+aus.m261 = R.path("M103,267,111,276,126,264,118,255z").attr(attr);
+aus.m262 = R.path("M370,220,375,239,385,236,380,217z").attr(attr);
+aus.m263 = R.path("M130,299,138,308,153,296,145,287z").attr(attr);
+aus.m264 = R.path("M165,159,173,168,188,156,180,147z").attr(attr);
+aus.m265 = R.path("M86,213,94,222,109,210,101,201z").attr(attr);
+aus.m266 = R.path("M322,337,327,356,337,353,332,334z").attr(attr);
+aus.m268 = R.path("M50,209,58,218,73,206,65,197z").attr(attr);
+aus.m269 = R.path("M507,65,526,67,525,79,505,76z").attr(attr);
+aus.m270 = R.path("M323,363,328,382,338,379,333,360z").attr(attr);
+aus.m271 = R.path("M139,236,147,245,162,233,154,224z").attr(attr);
+aus.m272 = R.path("M125,149,133,158,148,146,140,137z").attr(attr);
+aus.m273 = R.path("M78,169,86,178,101,166,93,157z").attr(attr);
+aus.m274 = R.path("M42,235,50,244,65,232,57,223z").attr(attr);
+aus.m275 = R.path("M94,256,102,265,117,253,109,244z").attr(attr);
+aus.m276 = R.path("M156,148,164,157,179,145,171,136z").attr(attr);
+aus.m277 = R.path("M319,209,324,228,334,225,329,206z").attr(attr);
+aus.m278 = R.path("M105,199,113,208,128,196,120,187z").attr(attr);
+aus.m279 = R.path("M84,283,92,292,107,280,99,271z").attr(attr);
+aus.m280 = R.path("M464,311,478,324,485,317,471,303z").attr(attr);
+aus.m283 = R.path("M474,260,488,273,495,266,481,252z").attr(attr);
+aus.m285 = R.path("M335,281,340,300,350,297,345,278z").attr(attr);
+aus.m286 = R.path("M121,181,129,190,144,178,136,169z").attr(attr);
+aus.m287 = R.path("M203,129,211,138,226,126,218,117z").attr(attr);
+aus.m288 = R.path("M348,330,353,349,363,346,358,327z").attr(attr);
+aus.m289 = R.path("M216,320,210,339,220,343,226,323z").attr(attr);
+aus.m290 = R.path("M307,367,312,386,322,383,317,364z").attr(attr);
+aus.m291 = R.path("M74,272,82,281,97,269,89,260z").attr(attr);
+aus.m292 = R.path("M24,215,32,224,47,212,39,203z").attr(attr);
+aus.m293 = R.path("M131,193,139,202,154,190,146,181z").attr(attr);
+aus.m294 = R.path("M306,213,311,232,321,229,316,210z").attr(attr);
+aus.m296 = R.path("M287,236,281,255,291,259,297,239z").attr(attr);
+aus.m297 = R.path("M472,191,486,204,493,197,479,183z").attr(attr);
+aus.m298 = R.path("M464,163,478,176,485,169,471,155z").attr(attr);
+aus.m299 = R.path("M348,113,362,126,369,119,355,105z").attr(attr);
+aus.m300 = R.path("M319,182,324,201,334,198,329,179z").attr(attr);
+aus.m301 = R.path("M196,340,190,359,200,363,206,343z").attr(attr);
+aus.m302 = R.path("M229,272,223,291,233,295,239,275z").attr(attr);
+aus.m303 = R.path("M235,248,229,267,239,271,245,251z").attr(attr);
+aus.m304 = R.path("M209,240,203,259,213,263,219,243z").attr(attr);
+aus.m305 = R.path("M94,294,102,303,117,291,109,282z").attr(attr);
+aus.m306 = R.path("M175,242,183,251,198,239,190,230z").attr(attr);
+aus.m307 = R.path("M215,176,223,185,238,173,230,164z").attr(attr);
+aus.m308 = R.path("M188,148,196,157,211,145,203,136z").attr(attr);
+aus.m1001 = R.path("M321,38,321,48,340,48,340,38z").attr(attr);
+aus.m1002 = R.path("M257,38,257,48,276,48,276,38z").attr(attr);
+aus.m1003 = R.path("M237,46,237,54,254,54,254,46z").attr(attr);
+aus.m1004 = R.path("M383,46,383,54,400,54,400,46z").attr(attr);
+aus.m1005 = R.path("M363,46,363,54,380,54,380,46z").attr(attr);
+aus.m1006 = R.path("M343,46,343,54,360,54,360,46z").attr(attr);
+aus.m1007 = R.path("M453,38,453,49,534,49,534,38z").attr(attr);
+aus.m1008 = R.path("M280,32,280,50,317,50,317,32z").attr(attr);
+aus.m1009 = R.path("M57,39,57,50,138,50,138,39z").attr(attr);
+aus.m1010 = R.path("M293,71,293,82,305,82,305,71z").attr(attr);
+aus.m1011 = R.path("M160,81,181,77,183,88,163,92z").attr(attr);
+aus.m1012 = R.path("M357,103,371,116,378,109,364,95z").attr(attr);
+aus.m1013 = R.path("M218,110,226,119,241,107,233,98z").attr(attr);
+aus.m2001 = R.path("M68,132,89,128,91,139,71,143z").attr(attr);
+aus.m2002 = R.path("M62,98,83,94,85,105,65,109z").attr(attr);
+aus.m2003 = R.path("M59,83,80,79,82,90,62,94z").attr(attr);
+aus.m2004 = R.path("M65,115,86,111,88,122,68,126z").attr(attr);
+aus.m2005 = R.path("M91,121,112,117,114,128,94,132z").attr(attr);
+aus.m2006 = R.path("M82,68,103,64,105,75,85,79z").attr(attr);
+aus.m2007 = R.path("M85,86,106,82,108,93,88,97z").attr(attr);
+aus.m2008 = R.path("M89,103,110,99,112,110,92,114z").attr(attr);
+aus.m2009 = R.path("M112,98,133,94,135,105,115,109z").attr(attr);
+aus.m2010 = R.path("M108,82,129,78,131,89,111,93z").attr(attr);
+aus.m2011 = R.path("M106,65,127,61,129,72,109,76z").attr(attr);
+aus.m2012 = R.path("M115,115,136,111,138,122,118,126z").attr(attr);
+aus.m2013 = R.path("M140,109,161,105,163,116,143,120z").attr(attr);
+aus.m2014 = R.path("M132,65,153,61,155,72,135,76z").attr(attr);
+aus.m2015 = R.path("M134,80,155,76,157,87,137,91z").attr(attr);
+aus.m2016 = R.path("M137,95,158,91,160,102,140,106z").attr(attr);
+aus.mblank = R.path("M32,66,53,62,55,73,35,77z").attr(attr);
+aus.mblank = R.path("M42,125,63,121,65,132,45,136z").attr(attr);
+aus.mblank = R.path("M35,81,56,77,58,88,38,92z").attr(attr);
+aus.mblank = R.path("M38,96,59,92,61,103,41,107z").attr(attr);
+aus.mblank = R.path("M40,110,61,106,63,117,43,121z").attr(attr);
+aus.mblank = R.path("M46,140,67,136,69,147,49,151z").attr(attr);
+aus.mblank = R.path("M56,66,77,62,79,73,59,77z").attr(attr);
+aus.mblank = R.path("M163,96,184,92,186,103,166,107z").attr(attr);
+aus.mblank = R.path("M408,341,413,360,423,357,418,338z").attr(attr);
+aus.mblank = R.path("M385,321,390,340,400,337,395,318z").attr(attr);
+aus.mblank = R.path("M335,334,340,353,350,350,345,331z").attr(attr);
+aus.mblank = R.path("M366,248,371,267,381,264,376,245z").attr(attr);
+aus.mblank = R.path("M251,354,245,373,255,377,261,357z").attr(attr);
+aus.mblank = R.path("M267,359,261,378,271,382,277,362z").attr(attr);
+aus.mblank = R.path("M272,205,266,224,276,228,282,208z").attr(attr);
+aus.mblank = R.path("M104,305,112,314,127,302,119,293z").attr(attr);
+aus.mblank = R.path("M121,250,129,259,144,247,136,238z").attr(attr);
+aus.mblank = R.path("M112,240,120,249,135,237,127,228z").attr(attr);
+aus.mblank = R.path("M129,226,137,235,152,223,144,214z").attr(attr);
+aus.mblank = R.path("M51,245,59,254,74,242,66,233z").attr(attr);
+aus.mblank = R.path("M33,225,41,234,56,222,48,213z").attr(attr);
+aus.mblank = R.path("M69,230,77,239,92,227,84,218z").attr(attr);
+aus.mblank = R.path("M166,232,174,241,189,229,181,220z").attr(attr);
+aus.mblank = R.path("M151,180,159,189,174,177,166,168z").attr(attr);
+aus.mblank = R.path("M201,201,209,210,224,198,216,189z").attr(attr);
+aus.mblank = R.path("M174,170,182,179,197,167,189,158z").attr(attr);
+aus.mblank = R.path("M159,66,180,62,182,73,162,77zz").attr(attr);
+
+            var current = null;
+            for (var state in aus) {
+                aus[state].color = Raphael.getColor();
+                (function (st, state) {
+					var idx = parseInt(state.substr(1), 10);
+					//st[0].onclick = function () { alert(members[idx].name); };
+					st[0].onclick=function() { window.open('list/'+members[idx].id+'.html','rightFrame'); };
+                    st[0].style.cursor = "pointer";
+                    st[0].onmouseover = function () {
+                        current && aus[current].animate({fill: "#333", stroke: "#666"}, 50) && (document.getElementById(current).style.display = "");
+                        st.animate({fill: st.color, stroke: "#ccc"}, 50);
+                        st.toFront();
+                        R.safari();
+                        document.getElementById(state).style.display = "block";
+                        current = state;
+                    };
+                    st[0].onmouseout = function () {
+                        st.animate({fill: "#333", stroke: "#666"}, 50);
+                        st.toFront();
+                        R.safari();
+                    };
+                    if (state == "nsw") {
+                        st[0].onmouseover();
+                    }
+                })(aus[state], state);
+            }
+        };
+        </script>
+		
+		<script>
+				// 이 함수 안에 들어간 내용이,
+				// 페이지가 완전히 로드된 직후에 실행돼요.
+				$(document).ready(function () {
+						// 이 함수는 members.json의 내용을 읽어서,
+						// 자바스크립트 객체 형태로 변수 data에 넣어 줘요.
+						$.getJSON('hallcoloring.json', function (data) {
+								window.members = data;
+								$.each(data, function (i, member) {
+									if (typeof aus['m'+i] != 'undefined') {
+										if (member.region1 == "서울") {
+											aus['m'+i].attr({ fill: '#2E9AFE' });
+										}
+										if (member.region1 == "경기") {
+											aus['m'+i].attr({ fill: '#F7819F' });
+										}
+										if (member.region1 == "비례대표") {
+											aus['m'+i].attr({ fill: '#F4FA58' });
+										}
+									}
+								});
+								// 이 함수는 data(의원 리스트)의 의원을 하나씩 읽어서
+								// member라는 변수에 담아요. i는 몇 번째 의원인지. (0부터)
+								$.each(data, function (i, member) {
+								
+										// 의원 한 명을 나타내는 새 <li> 태그를 만들고, 정당 정보를 입력
+										var item = $('<li></li>').addClass(member.region1);
+
+										// 의원이름
+										var name = $('<div></div>').addClass('name').text(member.name);
+										item.append(name);
+										// 의원 생일
+										//var birth = $('<div></div>').addClass('birth').text(member.birth);
+										//item.append(birth);
+
+										// id가 member_list인 곳에, item을 (맨 뒤에) 추가
+										$('#member_list').append(item);
+								});
+
+								// 한나라당 사람들의 이름만 파란 색으로
+								$('.서울 .name').css('background', '#2E9AFE');
+								$('.경기 .name').css('background', '#F7819F');
+								$('.비례대표 .name').css('background', '#F4FA58');
+						});
+				});
+		</script>
+    </head>
+    <body>
+        <div id="canvas">
+            <div id="paper"></div>
+			<div id="container"></div>
+							<a href="age.html">나이</a>	<a href="party.html">정당</a> <a href="region.html">지역</a> <a href="sex.html">성별</a>
+				<a href="./nofwins.html">당선횟수</a>
+
+				<ul id="member_list">
+				</ul>
+			<!--
+				<div id="m1">
+					<h2>New South Wales</h2>
+					<p>
+						New 
+					</p>
+				</div>
+			-->
+        </div>
+        <p id="copy">해냈다 흐흐</p>
+    </body>
+</html>

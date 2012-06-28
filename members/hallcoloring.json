@@ -1,0 +1,2783 @@
+﻿[
+	{
+		"id": "0",
+		"name": "이춘식",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "1",
+		"name": "이범래",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "2",
+		"name": "이종걸",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "3",
+		"name": "권선택",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "대전",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "4",
+		"name": "조윤선",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "5",
+		"name": "강명순",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "6",
+		"name": "유기준",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "7",
+		"name": "윤상현",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "8",
+		"name": "최종원",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "강원",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "9",
+		"name": "전여옥",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "10",
+		"name": "이성헌",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "11",
+		"name": "허천",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "강원",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "12",
+		"name": "김부겸",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "13",
+		"name": "조진래",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "14",
+		"name": "김우남",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "제주",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "15",
+		"name": "진성호",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "16",
+		"name": "김상희",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "17",
+		"name": "진영",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "18",
+		"name": "허태열",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "19",
+		"name": "권영진",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "20",
+		"name": "김재윤",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "제주",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "21",
+		"name": "최영희",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "22",
+		"name": "유정현",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "23",
+		"name": "최인기",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "24",
+		"name": "강창일",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "제주",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "25",
+		"name": "권성동",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "강원",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "26",
+		"name": "신상진",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "27",
+		"name": "김장수",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "28",
+		"name": "신영수",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "29",
+		"name": "김소남",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "30",
+		"name": "노영민",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "충북",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "31",
+		"name": "김성조",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "32",
+		"name": "주광덕",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "33",
+		"name": "최경희",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "34",
+		"name": "이종구",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "35",
+		"name": "강길부",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "울산",
+		"nofwins": "2",
+		"ageclass": "70"
+	},
+	{
+		"id": "36",
+		"name": "박상은",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "37",
+		"name": "김성식",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "38",
+		"name": "박기춘",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "39",
+		"name": "이명수",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "충남",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "40",
+		"name": "곽정숙",
+		"sex_estimate": "1",
+		"party": "민주노동당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "41",
+		"name": "정옥임",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "42",
+		"name": "김충조",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "5",
+		"ageclass": "70"
+	},
+	{
+		"id": "43",
+		"name": "나경원",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "44",
+		"name": "김금래",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "45",
+		"name": "강성종",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "46",
+		"name": "김영우",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "47",
+		"name": "송광호",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "충북",
+		"nofwins": "3",
+		"ageclass": "70"
+	},
+	{
+		"id": "48",
+		"name": "조정식",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "49",
+		"name": "유정복",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "50",
+		"name": "김춘진",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "51",
+		"name": "박주선",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "광주",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "52",
+		"name": "정범구",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "충북",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "53",
+		"name": "김희철",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "54",
+		"name": "이성남",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "55",
+		"name": "이상득",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "6",
+		"ageclass": "70"
+	},
+	{
+		"id": "56",
+		"name": "김성동",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "57",
+		"name": "이철우",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "58",
+		"name": "김충환",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "59",
+		"name": "김성회",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "60",
+		"name": "이화수",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "61",
+		"name": "조순형",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "비례대표",
+		"nofwins": "7",
+		"ageclass": "70"
+	},
+	{
+		"id": "62",
+		"name": "조배숙",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "63",
+		"name": "최경환",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "64",
+		"name": "김형오",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "5",
+		"ageclass": "60"
+	},
+	{
+		"id": "65",
+		"name": "윤상일",
+		"sex_estimate": "1",
+		"party": "미래희망연대",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "66",
+		"name": "조영택",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "광주",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "67",
+		"name": "서상기",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "68",
+		"name": "김호연",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "충남",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "69",
+		"name": "신학용",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "인천",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "70",
+		"name": "이찬열",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "71",
+		"name": "임동규",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "72",
+		"name": "김무성",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "73",
+		"name": "이낙연",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "74",
+		"name": "김영록",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "75",
+		"name": "전현희",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "76",
+		"name": "김성순",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "70"
+	},
+	{
+		"id": "77",
+		"name": "김유정",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "78",
+		"name": "원유철",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "79",
+		"name": "이한성",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "80",
+		"name": "박순자",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "81",
+		"name": "윤석용",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "82",
+		"name": "우윤근",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "83",
+		"name": "김정권",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "84",
+		"name": "이회창",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "충남",
+		"nofwins": "3",
+		"ageclass": "70"
+	},
+	{
+		"id": "85",
+		"name": "김광림",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "86",
+		"name": "강석호",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "87",
+		"name": "이진복",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "88",
+		"name": "장제원",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "89",
+		"name": "김재균",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "광주",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "90",
+		"name": "박근혜",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "91",
+		"name": "주호영",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "92",
+		"name": "유선호",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "93",
+		"name": "이재오",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "94",
+		"name": "홍정욱",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "95",
+		"name": "윤진식",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "충북",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "96",
+		"name": "박민식",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "97",
+		"name": "이재선",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "대전",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "98",
+		"name": "정양석",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "99",
+		"name": "나성린",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "100",
+		"name": "조원진",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "101",
+		"name": "이영애1",
+		"sex_estimate": "2",
+		"party": "자유선진당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "102",
+		"name": "안홍준",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "103",
+		"name": "김영진",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "광주",
+		"nofwins": "5",
+		"ageclass": "60"
+	},
+	{
+		"id": "104",
+		"name": "박희태",
+		"sex_estimate": "1",
+		"party": "무소속",
+		"region1": "경남",
+		"nofwins": "6",
+		"ageclass": "70"
+	},
+	{
+		"id": "105",
+		"name": "이종혁",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "106",
+		"name": "김정",
+		"sex_estimate": "1",
+		"party": "미래희망연대",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "107",
+		"name": "신건",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "1",
+		"ageclass": "70"
+	},
+	{
+		"id": "108",
+		"name": "황진하",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "109",
+		"name": "변웅전",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "충남",
+		"nofwins": "3",
+		"ageclass": "70"
+	},
+	{
+		"id": "110",
+		"name": "윤영",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "111",
+		"name": "배은희",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "112",
+		"name": "이학재",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "113",
+		"name": "김정훈",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "114",
+		"name": "이해봉",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "4",
+		"ageclass": "70"
+	},
+	{
+		"id": "115",
+		"name": "최연희",
+		"sex_estimate": "1",
+		"party": "무소속",
+		"region1": "강원",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "116",
+		"name": "송민순",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "117",
+		"name": "박지원",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "2",
+		"ageclass": "70"
+	},
+	{
+		"id": "118",
+		"name": "권경석",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "119",
+		"name": "백성운",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "120",
+		"name": "진수희",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "121",
+		"name": "강기갑",
+		"sex_estimate": "1",
+		"party": "민주노동당",
+		"region1": "경남",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "122",
+		"name": "김태원",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "123",
+		"name": "김기현",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "울산",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "124",
+		"name": "김영선",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "4",
+		"ageclass": "50"
+	},
+	{
+		"id": "125",
+		"name": "김효재",
+		"sex_estimate": "1",
+		"party": "무소속",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "126",
+		"name": "김용태",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "127",
+		"name": "임해규",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "128",
+		"name": "조진형",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "129",
+		"name": "이강래",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "130",
+		"name": "김성곤",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "131",
+		"name": "김혜성",
+		"sex_estimate": "1",
+		"party": "미래희망연대",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "132",
+		"name": "노철래",
+		"sex_estimate": "1",
+		"party": "미래희망연대",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "133",
+		"name": "김재경",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "134",
+		"name": "신성범",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "135",
+		"name": "정병국",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "136",
+		"name": "김용구",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "70"
+	},
+	{
+		"id": "137",
+		"name": "정의화",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "138",
+		"name": "최재성",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "139",
+		"name": "이석현",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "140",
+		"name": "문희상",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "141",
+		"name": "이군현",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "142",
+		"name": "홍재형",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "충북",
+		"nofwins": "3",
+		"ageclass": "70"
+	},
+	{
+		"id": "143",
+		"name": "전병헌",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "144",
+		"name": "안민석",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "145",
+		"name": "심재철",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "146",
+		"name": "이용경",
+		"sex_estimate": "1",
+		"party": "창조한국당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "147",
+		"name": "유성엽",
+		"sex_estimate": "1",
+		"party": "무소속",
+		"region1": "전북",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "148",
+		"name": "조문환",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "149",
+		"name": "홍영표",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "인천",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "150",
+		"name": "구상찬",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "151",
+		"name": "정해걸",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "1",
+		"ageclass": "70"
+	},
+	{
+		"id": "152",
+		"name": "손숙미",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "153",
+		"name": "장세환",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "154",
+		"name": "김영환",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "155",
+		"name": "김옥이",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "156",
+		"name": "정두언",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "157",
+		"name": "이경재",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "4",
+		"ageclass": "70"
+	},
+	{
+		"id": "158",
+		"name": "이정희",
+		"sex_estimate": "1",
+		"party": "민주노동당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "159",
+		"name": "정수성",
+		"sex_estimate": "1",
+		"party": "무소속",
+		"region1": "경북",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "160",
+		"name": "정장선",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "161",
+		"name": "김동성",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "162",
+		"name": "홍일표",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "163",
+		"name": "허원제",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "164",
+		"name": "유재중",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "165",
+		"name": "정하균",
+		"sex_estimate": "1",
+		"party": "미래희망연대",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "166",
+		"name": "이혜훈",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "167",
+		"name": "손학규",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "168",
+		"name": "강봉균",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "169",
+		"name": "김세연",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "170",
+		"name": "안규백",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "171",
+		"name": "김학재",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "172",
+		"name": "신낙균",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "2",
+		"ageclass": "70"
+	},
+	{
+		"id": "173",
+		"name": "안형환",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "174",
+		"name": "홍희덕",
+		"sex_estimate": "1",
+		"party": "민주노동당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "175",
+		"name": "손범규",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "176",
+		"name": "이명규",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "177",
+		"name": "박보환",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "178",
+		"name": "정영희",
+		"sex_estimate": "2",
+		"party": "미래희망연대",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "179",
+		"name": "박은수",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "180",
+		"name": "서종표",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "181",
+		"name": "조경태",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "부산",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "182",
+		"name": "박우순",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "강원",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "183",
+		"name": "이한구",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "184",
+		"name": "현기환",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "185",
+		"name": "백재현",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "186",
+		"name": "류근찬",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "충남",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "187",
+		"name": "강승규",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "188",
+		"name": "김동철",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "광주",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "189",
+		"name": "전혜숙",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "190",
+		"name": "김진애",
+		"sex_estimate": "2",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "191",
+		"name": "원혜영",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "192",
+		"name": "홍준표",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "4",
+		"ageclass": "50"
+	},
+	{
+		"id": "193",
+		"name": "박대해",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "194",
+		"name": "박진",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "195",
+		"name": "추미애",
+		"sex_estimate": "2",
+		"party": "민주당",
+		"region1": "서울",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "196",
+		"name": "정몽준",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "6",
+		"ageclass": "60"
+	},
+	{
+		"id": "197",
+		"name": "안상수",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "198",
+		"name": "이상민",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "대전",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "199",
+		"name": "김태호",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "200",
+		"name": "박준선",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "201",
+		"name": "안경률",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "202",
+		"name": "박병석",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "대전",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "203",
+		"name": "한기호",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "강원",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "204",
+		"name": "김태환",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "205",
+		"name": "김창수",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "대전",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "206",
+		"name": "권영세",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "207",
+		"name": "김학송",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "208",
+		"name": "이춘석",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "209",
+		"name": "이윤석",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "210",
+		"name": "서병수",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "부산",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "211",
+		"name": "정진섭",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "212",
+		"name": "양승조",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "충남",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "213",
+		"name": "이상권",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "214",
+		"name": "원희룡",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "3",
+		"ageclass": "40"
+	},
+	{
+		"id": "215",
+		"name": "박영선",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "216",
+		"name": "이윤성",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "217",
+		"name": "박상천",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "5",
+		"ageclass": "70"
+	},
+	{
+		"id": "218",
+		"name": "조전혁",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "219",
+		"name": "이미경",
+		"sex_estimate": "2",
+		"party": "민주당",
+		"region1": "서울",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "220",
+		"name": "남경필",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "4",
+		"ageclass": "40"
+	},
+	{
+		"id": "221",
+		"name": "이용희",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "충북",
+		"nofwins": "5",
+		"ageclass": "80"
+	},
+	{
+		"id": "222",
+		"name": "성윤환",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "223",
+		"name": "박영아",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "224",
+		"name": "정태근",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "225",
+		"name": "원희목",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "226",
+		"name": "조해진",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "227",
+		"name": "고승덕",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "228",
+		"name": "강기정",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "광주",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "229",
+		"name": "이애주",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "230",
+		"name": "최병국",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "울산",
+		"nofwins": "3",
+		"ageclass": "70"
+	},
+	{
+		"id": "231",
+		"name": "김학용",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "232",
+		"name": "변재일",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "충북",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "233",
+		"name": "최규성",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "234",
+		"name": "여상규",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "235",
+		"name": "김선동2",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "236",
+		"name": "송훈석",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "강원",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "237",
+		"name": "김진표",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "238",
+		"name": "차명진",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "239",
+		"name": "최규식",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "서울",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "240",
+		"name": "박선숙",
+		"sex_estimate": "2",
+		"party": "민주당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "241",
+		"name": "전재희",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "242",
+		"name": "이범관",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "243",
+		"name": "오제세",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "충북",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "244",
+		"name": "이용섭",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "광주",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "245",
+		"name": "정동영",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "246",
+		"name": "우제창",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "247",
+		"name": "김성수",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "248",
+		"name": "김성태",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "249",
+		"name": "문학진",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "250",
+		"name": "천정배",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "4",
+		"ageclass": "50"
+	},
+	{
+		"id": "251",
+		"name": "이인기",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "252",
+		"name": "백원우",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "253",
+		"name": "주승용",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "254",
+		"name": "정희수",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "255",
+		"name": "정세균",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전북",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "256",
+		"name": "안효대",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "울산",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "257",
+		"name": "이병석",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "258",
+		"name": "권택기",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "259",
+		"name": "조승수",
+		"sex_estimate": "1",
+		"party": "진보신당",
+		"region1": "울산",
+		"nofwins": "2",
+		"ageclass": "40"
+	},
+	{
+		"id": "260",
+		"name": "이정선",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "261",
+		"name": "이정현",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "262",
+		"name": "한선교",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "263",
+		"name": "강성천",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "70"
+	},
+	{
+		"id": "264",
+		"name": "강용석",
+		"sex_estimate": "1",
+		"party": "무소속",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "265",
+		"name": "송영선",
+		"sex_estimate": "1",
+		"party": "미래희망연대",
+		"region1": "비례대표",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "266",
+		"name": "이두아",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "267",
+		"name": "이사철",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "268",
+		"name": "김낙성",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "충남",
+		"nofwins": "2",
+		"ageclass": "70"
+	},
+	{
+		"id": "269",
+		"name": "장병완",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "광주",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "270",
+		"name": "이주영",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "271",
+		"name": "정미경",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "272",
+		"name": "박선영",
+		"sex_estimate": "2",
+		"party": "자유선진당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "273",
+		"name": "이진삼",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "충남",
+		"nofwins": "1",
+		"ageclass": "70"
+	},
+	{
+		"id": "274",
+		"name": "이인제",
+		"sex_estimate": "1",
+		"party": "무소속",
+		"region1": "충남",
+		"nofwins": "5",
+		"ageclass": "60"
+	},
+	{
+		"id": "275",
+		"name": "신지호",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "276",
+		"name": "유원일",
+		"sex_estimate": "1",
+		"party": "창조한국당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "277",
+		"name": "최구식",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경남",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "278",
+		"name": "김을동",
+		"sex_estimate": "1",
+		"party": "미래희망연대",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "279",
+		"name": "정갑윤",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "울산",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "280",
+		"name": "박종근",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "4",
+		"ageclass": "70"
+	},
+	{
+		"id": "281",
+		"name": "유승민",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "282",
+		"name": "이은재",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "비례대표",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "283",
+		"name": "김효석",
+		"sex_estimate": "1",
+		"party": "민주당",
+		"region1": "전남",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "284",
+		"name": "장윤석",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경북",
+		"nofwins": "2",
+		"ageclass": "60"
+	},
+	{
+		"id": "285",
+		"name": "유일호",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "286",
+		"name": "임영호",
+		"sex_estimate": "1",
+		"party": "자유선진당",
+		"region1": "대전",
+		"nofwins": "1",
+		"ageclass": "50"
+	},
+	{
+		"id": "287",
+		"name": "권영길",
+		"sex_estimate": "1",
+		"party": "민주노동당",
+		"region1": "경남",
+		"nofwins": "2",
+		"ageclass": "70"
+	},
+	{
+		"id": "288",
+		"name": "황영철",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "강원",
+		"nofwins": "1",
+		"ageclass": "40"
+	},
+	{
+		"id": "289",
+		"name": "고흥길",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "경기",
+		"nofwins": "3",
+		"ageclass": "60"
+	},
+	{
+		"id": "290",
+		"name": "황우여",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "인천",
+		"nofwins": "4",
+		"ageclass": "60"
+	},
+	{
+		"id": "291",
+		"name": "주성영",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "2",
+		"ageclass": "50"
+	},
+	{
+		"id": "292",
+		"name": "심대평",
+		"sex_estimate": "1",
+		"party": "국민중심연합",
+		"region1": "충남",
+		"nofwins": "2",
+		"ageclass": "70"
+	},
+	{
+		"id": "293",
+		"name": "배영식",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "1",
+		"ageclass": "60"
+	},
+	{
+		"id": "294",
+		"name": "장광근",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "서울",
+		"nofwins": "3",
+		"ageclass": "50"
+	},
+	{
+		"id": "295",
+		"name": "홍사덕",
+		"sex_estimate": "1",
+		"party": "한나라당",
+		"region1": "대구",
+		"nofwins": "6",
+		"ageclass": "60"
+	},
+	{
+		"id": "296",
+		"name": "이영애2",
+		"sex_estimate": "2",
+		"party": "한나라당",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "297",
+		"name": "이찬일",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "298",
+		"name": "김영득",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "299",
+		"name": "강성중",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "300",
+		"name": "치명진",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "301",
+		"name": "정의회",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "302",
+		"name": "이해훈",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "303",
+		"name": "정잉석",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "304",
+		"name": "인효대",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "305",
+		"name": "김정수",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "306",
+		"name": "이시철",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "307",
+		"name": "진권영",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	},
+	{
+		"id": "308",
+		"name": "김선동1",
+		"sex_estimate": "1",
+		"party": "",
+		"region1": "",
+		"nofwins": "",
+		"ageclass": "2010"
+	}
+]
