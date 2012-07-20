@@ -6,104 +6,6 @@
         <title>대한민국 국회 본회의장</title>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="raphael.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-        window.onload = function () {
-            var R = Raphael("paper", 600, 420); //300, 300
-            var attr = {
-                fill: "#333",
-                stroke: "#666",
-                "stroke-width": 1,
-                "stroke-linejoin": "round"
-            };
-
-            window.aus = {};
-
-			$.getJSON('paths.json', function (data) {
-				$.each(data, function (key, val) {
-					aus['m'+key] = R.path(val).attr(attr);
-				});
-
-				var current = null;
-				for (var state in aus) {
-					aus[state].color = Raphael.getColor();
-					(function (st, state) {
-						var idx = parseInt(state.substr(1), 10);
-						//st[0].onclick = function () { alert(members[idx].name); };
-						st[0].onclick=function() { window.open('list/'+members[idx].id+'.html','rightFrame'); };
-						st[0].style.cursor = "pointer";
-						st[0].onmouseover = function () {
-							//showAltAlt(this, 'anno', 150);
-							//alert(members[idx].name);
-							current && aus[current].animate({fill: "#333", stroke: "#666"}, 50) && (document.getElementById(current).style.display = "");
-							st.animate({fill: st.color, stroke: "#ccc"}, 50);
-							st.toFront();
-							R.safari();
-							document.getElementById(state).style.display = "block";
-							current = state;
-					   };
-						st[0].onmouseout = function () {
-							st.animate({fill: "#333", stroke: "#666"}, 50);
-							st.toFront();
-							R.safari();
-						};
-						if (state == "nsw") {
-							st[0].onmouseover();
-						}
-					})(aus[state], state);
-				}
-
-				$.getJSON('hallcoloring.json', function (data) {
-					window.members = data;
-
-					$.each(data, function (i, member) {
-						if (typeof aus['m'+i] != 'undefined') {
-							if (member.nofwins == 1) {
-								aus['m'+i].attr({ fill: '#2E9AFE' });
-							}
-							if (member.nofwins == 2) {
-								aus['m'+i].attr({ fill: '#58FA58' });
-							}
-							if (member.nofwins == 3) {
-								aus['m'+i].attr({ fill: '#F79F81' });
-							}
-							if (member.nofwins == 4) {
-								aus['m'+i].attr({ fill: '#F7D358' });
-							}
-							if (member.nofwins == 5) {
-								aus['m'+i].attr({ fill: '#D8F781' });
-							}
-							if (member.nofwins == 6) {
-								aus['m'+i].attr({ fill: '#9FF781' });
-							}
-							if (member.nofwins == 7) {
-								aus['m'+i].attr({ fill: '#9F81F7' });
-							}
-						}
-					});
-					
-					$.each(data, function (i, member) {
-							var item = $('<li></li>').addClass(member.party);
-							var name = $('<div></div>').addClass('name').text(member.name);
-							item.append(name);
-							$('#member_list').append(item);
-					});
-
-					$('.1 .name').css('background', '#2E9AFE');
-					$('.2 .name').css('background', '#58FA58');
-					$('.3 .name').css('background', '#F79F81');
-					$('.4 .name').css('background', '#F7D358');
-					$('.5 .name').css('background', '#D8F781');
-					$('.6 .name').css('background', '#9FF781');
-					$('.7 .name').css('background', '#9F81F7');
-				});
-			});
-
-        };
-        </script>
-		
-		
-		
-	
     </head>
     <body>
         <div id="canvas">
@@ -113,5 +15,96 @@
 				<a href="./nofwins.html">당선횟수</a>
 				<ul id="member_list"></ul>
         </div>
+		<script type="text/javascript">
+		var R = Raphael("paper", 600, 420); //300, 300
+		var attr = {
+			fill: "#333",
+			stroke: "#666",
+			"stroke-width": 1,
+			"stroke-linejoin": "round"
+		};
+
+		window.aus = {};
+
+		$.getJSON('paths.json', function (data) {
+			$.each(data, function (key, val) {
+				aus['m'+key] = R.path(val).attr(attr);
+			});
+
+			var current = null;
+			for (var state in aus) {
+				aus[state].color = Raphael.getColor();
+				(function (st, state) {
+					var idx = parseInt(state.substr(1), 10);
+					//st[0].onclick = function () { alert(members[idx].name); };
+					st[0].onclick=function() { window.open('list/'+members[idx].id+'.html','rightFrame'); };
+					st[0].style.cursor = "pointer";
+					st[0].onmouseover = function () {
+						//showAltAlt(this, 'anno', 150);
+						//alert(members[idx].name);
+						current && aus[current].animate({fill: "#333", stroke: "#666"}, 50) && (document.getElementById(current).style.display = "");
+						st.animate({fill: st.color, stroke: "#ccc"}, 50);
+						st.toFront();
+						R.safari();
+						document.getElementById(state).style.display = "block";
+						current = state;
+				   };
+					st[0].onmouseout = function () {
+						st.animate({fill: "#333", stroke: "#666"}, 50);
+						st.toFront();
+						R.safari();
+					};
+					if (state == "nsw") {
+						st[0].onmouseover();
+					}
+				})(aus[state], state);
+			}
+
+			$.getJSON('hallcoloring.json', function (data) {
+				window.members = data;
+
+				$.each(data, function (i, member) {
+					if (typeof aus['m'+i] != 'undefined') {
+						if (member.nofwins == 1) {
+							aus['m'+i].attr({ fill: '#2E9AFE' });
+						}
+						if (member.nofwins == 2) {
+							aus['m'+i].attr({ fill: '#58FA58' });
+						}
+						if (member.nofwins == 3) {
+							aus['m'+i].attr({ fill: '#F79F81' });
+						}
+						if (member.nofwins == 4) {
+							aus['m'+i].attr({ fill: '#F7D358' });
+						}
+						if (member.nofwins == 5) {
+							aus['m'+i].attr({ fill: '#D8F781' });
+						}
+						if (member.nofwins == 6) {
+							aus['m'+i].attr({ fill: '#9FF781' });
+						}
+						if (member.nofwins == 7) {
+							aus['m'+i].attr({ fill: '#9F81F7' });
+						}
+					}
+				});
+				
+				$.each(data, function (i, member) {
+						var item = $('<li></li>').addClass(member.party);
+						var name = $('<div></div>').addClass('name').text(member.name);
+						item.append(name);
+						$('#member_list').append(item);
+				});
+
+				$('.1 .name').css('background', '#2E9AFE');
+				$('.2 .name').css('background', '#58FA58');
+				$('.3 .name').css('background', '#F79F81');
+				$('.4 .name').css('background', '#F7D358');
+				$('.5 .name').css('background', '#D8F781');
+				$('.6 .name').css('background', '#9FF781');
+				$('.7 .name').css('background', '#9F81F7');
+			});
+		});
+        </script>
     </body>
 </html>
