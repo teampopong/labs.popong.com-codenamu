@@ -343,14 +343,10 @@ window.PG = {};
 
 PG.Seats = function (id, width, height, people, key) { 
     var R = Raphael(id, width, height);
-    var seat = {};
+    var seats = {};
     $.each(seatPaths, function (key, val) {
-        seat[key] = R.path(val);
+        seats[key] = R.path(val);
     });
-    $.each(people, function (i, person) {
-        if (typeof seat[i] != 'undefined') {
-            seat[i].node.setAttribute('class', key+person[key]);
-        }
-    });
+    return $.Deferred().resolve(seats);
 }
 }());

@@ -7,13 +7,28 @@
         <script type="text/javascript" src="raphael.js"></script>
         <script type="text/javascript" src="seats.js"></script>
         <link rel="stylesheet" type="text/css" href="seats.css">
-        <link rel="stylesheet" type="text/css" href="nofwins.css">
     </head>
     <body>
         <div id="paper"></div>
         <script type="text/javascript">
+		var colors = {
+			"1": "#2E9AFE",
+			"2": "#58FA58",
+			"3": "#F79F81",
+			"4": "#F7D358",
+			"5": "#D8F781",
+			"6": "#9FF781",
+			"7": "#9F81F7"
+		};
+
 		$.getJSON('people.json', function (people) {
-			PG.Seats('paper', 600, 420, people, 'nofwins');
+			PG.Seats('paper', 600, 420).then(function (seats) {
+				$.each(people, function (i, person) {
+					if (typeof seats[i] != 'undefined') {
+						seats[i].node.setAttribute('style', 'fill:'+colors[person.nofwins]);
+					}
+				});
+			});
 		});
         </script>
     </body>
