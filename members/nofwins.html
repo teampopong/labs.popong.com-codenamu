@@ -6,29 +6,24 @@
         <title>대한민국 국회 본회의장</title>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="raphael.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="seats.css">
     </head>
     <body>
         <div id="canvas">
             <div id="paper"></div>
 			<div id="container"></div>
-				<a href="age.html">나이</a>	<a href="party.html">정당</a> <a href="region.html">지역</a>	<a href="sex.html">성별</a>
-				<a href="./nofwins.html">당선횟수</a>
-				<ul id="member_list"></ul>
+			<a href="age.html">나이</a>	<a href="party.html">정당</a> <a href="region.html">지역</a>	<a href="sex.html">성별</a>
+			<a href="./nofwins.html">당선횟수</a>
+			<ul id="member_list"></ul>
         </div>
 		<script type="text/javascript">
 		var R = Raphael("paper", 600, 420); //300, 300
-		var attr = {
-			fill: "#333",
-			stroke: "#666",
-			"stroke-width": 1,
-			"stroke-linejoin": "round"
-		};
 
 		window.aus = {};
 
 		$.getJSON('paths.json', function (data) {
 			$.each(data, function (key, val) {
-				aus['m'+key] = R.path(val).attr(attr);
+				aus['m'+key] = R.path(val);
 			});
 
 			var current = null;
@@ -65,27 +60,7 @@
 
 				$.each(data, function (i, member) {
 					if (typeof aus['m'+i] != 'undefined') {
-						if (member.nofwins == 1) {
-							aus['m'+i].attr({ fill: '#2E9AFE' });
-						}
-						if (member.nofwins == 2) {
-							aus['m'+i].attr({ fill: '#58FA58' });
-						}
-						if (member.nofwins == 3) {
-							aus['m'+i].attr({ fill: '#F79F81' });
-						}
-						if (member.nofwins == 4) {
-							aus['m'+i].attr({ fill: '#F7D358' });
-						}
-						if (member.nofwins == 5) {
-							aus['m'+i].attr({ fill: '#D8F781' });
-						}
-						if (member.nofwins == 6) {
-							aus['m'+i].attr({ fill: '#9FF781' });
-						}
-						if (member.nofwins == 7) {
-							aus['m'+i].attr({ fill: '#9F81F7' });
-						}
+						aus['m'+i].node.setAttribute('class', 'nofwins'+member.nofwins);
 					}
 				});
 				

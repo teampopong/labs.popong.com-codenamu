@@ -1,0 +1,34 @@
+svg path {
+	fill: #333;
+	stroke: #666;
+	stroke-width: 1;
+	stroke-linejoin: round;
+}
+
+.nofwins1 {
+	fill: #2E9AFE;
+}
+
+.nofwins2 {
+	fill: #58FA58;
+}
+
+.nofwins3 {
+	fill: #F79F81;
+}
+
+.nofwins4 {
+	fill: #F7D358;
+}
+
+.nofwins5 {
+	fill: #D8F781;
+}
+
+.nofwins6 {
+	fill: #9FF781;
+}
+
+.nofwins7 {
+	fill: #9F81F7;
+}
