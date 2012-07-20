@@ -14,41 +14,41 @@
 			<div id="container"></div>
 			<a href="age.html">나이</a>	<a href="party.html">정당</a> <a href="region.html">지역</a>	<a href="sex.html">성별</a>
 			<a href="./nofwins.html">당선횟수</a>
-			<ul id="member_list"></ul>
+			<ul id="people"></ul>
         </div>
 		<script type="text/javascript">
 		var R = Raphael("paper", 600, 420); //300, 300
 
 		window.aus = {};
 
-		$.getJSON('paths.json', function (data) {
-			$.each(data, function (key, val) {
+		var pipe = $.getJSON('paths.json');
+		pipe = pipe.pipe(function (paths) {
+			$.each(paths, function (key, val) {
 				aus['m'+key] = R.path(val);
 			});
-			$.getJSON('hallcoloring.json', function (data) {
-				window.members = data;
-
-				$.each(data, function (i, member) {
-					if (typeof aus['m'+i] != 'undefined') {
-						aus['m'+i].node.setAttribute('class', 'nofwins'+member.nofwins);
-					}
-				});
-				
-				$.each(data, function (i, member) {
-						var item = $('<li></li>').addClass(member.party);
-						var name = $('<div></div>').addClass('name').text(member.name);
-						item.append(name);
-						$('#member_list').append(item);
-				});
-
-				$('.1 .name').css('background', '#2E9AFE');
-				$('.2 .name').css('background', '#58FA58');
-				$('.3 .name').css('background', '#F79F81');
-				$('.4 .name').css('background', '#F7D358');
-				$('.5 .name').css('background', '#D8F781');
-				$('.6 .name').css('background', '#9FF781');
-				$('.7 .name').css('background', '#9F81F7');
+			return $.getJSON('hallcoloring.json');
+		});
+		pipe.then(function (people) {
+			$.each(people, function (i, person) {
+				if (typeof aus['m'+i] != 'undefined') {
+					aus['m'+i].node.setAttribute('class', 'nofwins'+person.nofwins);
+				}
 			});
+			
+			$.each(people, function (i, person) {
+					var item = $('<li></li>').addClass(person.party);
+					var name = $('<div></div>').addClass('name').text(person.name);
+					item.append(name);
+					$('#people').append(item);
+			});
+
+			$('.1 .name').css('background', '#2E9AFE');
+			$('.2 .name').css('background', '#58FA58');
+			$('.3 .name').css('background', '#F79F81');
+			$('.4 .name').css('background', '#F7D358');
+			$('.5 .name').css('background', '#D8F781');
+			$('.6 .name').css('background', '#9FF781');
+			$('.7 .name').css('background', '#9F81F7');
 		});
         </script>
     </body>
