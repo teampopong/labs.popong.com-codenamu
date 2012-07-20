@@ -4,31 +4,17 @@
         <meta charset="utf-8">
         <title>대한민국 국회 본회의장</title>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script src="raphael.js" type="text/javascript"></script>
+        <script type="text/javascript" src="raphael.js"></script>
+        <script type="text/javascript" src="seats.js"></script>
         <link rel="stylesheet" type="text/css" href="seats.css">
+        <link rel="stylesheet" type="text/css" href="nofwins.css">
     </head>
     <body>
         <div id="paper"></div>
         <script type="text/javascript">
-        (function () {
-        var R = Raphael("paper", 600, 420); //300, 300
-        var seat = {};
-
-        var pipe = $.getJSON('paths.json');
-        pipe = pipe.pipe(function (paths) {
-            $.each(paths, function (key, val) {
-                seat[key] = R.path(val);
-            });
-            return $.getJSON('hallcoloring.json');
-        });
-        pipe.then(function (people) {
-            $.each(people, function (i, person) {
-                if (typeof seat[i] != 'undefined') {
-                    seat[i].node.setAttribute('class', 'nofwins'+person.nofwins);
-                }
-            });
-        });
-        }());
+		$.getJSON('hallcoloring.json', function (people) {
+			PG.Seats('paper', 600, 420, people, 'nofwins');
+		});
         </script>
     </body>
 </html>

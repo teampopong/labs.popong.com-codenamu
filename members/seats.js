@@ -1,4 +1,5 @@
-{
+(function () {
+var seatPaths = {
     "0": "M261,228,255,247,265,251,271,231z",
     "1": "M280,337,274,356,284,360,290,340z",
     "2": "M421,214,435,227,442,220,428,206z",
@@ -337,3 +338,19 @@
     "blank": "M174,170,182,179,197,167,189,158z",
     "blank": "M159,66,180,62,182,73,162,77zz"
 }
+
+window.PG = {};
+
+PG.Seats = function (id, width, height, people, key) { 
+    var R = Raphael(id, width, height);
+    var seat = {};
+    $.each(seatPaths, function (key, val) {
+        seat[key] = R.path(val);
+    });
+    $.each(people, function (i, person) {
+        if (typeof seat[i] != 'undefined') {
+            seat[i].node.setAttribute('class', key+person[key]);
+        }
+    });
+}
+}());
