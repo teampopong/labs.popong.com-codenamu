@@ -25,36 +25,6 @@
 			$.each(data, function (key, val) {
 				aus['m'+key] = R.path(val);
 			});
-
-			var current = null;
-			for (var state in aus) {
-				aus[state].color = Raphael.getColor();
-				(function (st, state) {
-					var idx = parseInt(state.substr(1), 10);
-					//st[0].onclick = function () { alert(members[idx].name); };
-					st[0].onclick=function() { window.open('list/'+members[idx].id+'.html','rightFrame'); };
-					st[0].style.cursor = "pointer";
-					st[0].onmouseover = function () {
-						//showAltAlt(this, 'anno', 150);
-						//alert(members[idx].name);
-						current && aus[current].animate({fill: "#333", stroke: "#666"}, 50) && (document.getElementById(current).style.display = "");
-						st.animate({fill: st.color, stroke: "#ccc"}, 50);
-						st.toFront();
-						R.safari();
-						document.getElementById(state).style.display = "block";
-						current = state;
-				   };
-					st[0].onmouseout = function () {
-						st.animate({fill: "#333", stroke: "#666"}, 50);
-						st.toFront();
-						R.safari();
-					};
-					if (state == "nsw") {
-						st[0].onmouseover();
-					}
-				})(aus[state], state);
-			}
-
 			$.getJSON('hallcoloring.json', function (data) {
 				window.members = data;
 

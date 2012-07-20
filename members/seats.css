@@ -3,6 +3,7 @@ svg path {
 	stroke: #666;
 	stroke-width: 1;
 	stroke-linejoin: round;
+	cursor: pointer;
 }
 
 .nofwins1 {
