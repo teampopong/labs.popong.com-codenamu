@@ -1,6 +1,8 @@
-{% load cms_tags sekizai_tags menu_tags %}
 <html>
       <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
       <script type="text/html" id="item_tmpl_single">
 	<% obj.title = stripHTML(unescapeHTML(obj.title)); %>
 	  <li>
@@ -66,7 +68,6 @@
 
       <link href="/media/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link href="/media/css/scratch.css" rel="stylesheet">
-      {% render_block "css" %}
   </head>
   <body style="width:100%;">
       <div class="person-line">
