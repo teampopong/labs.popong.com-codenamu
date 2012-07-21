@@ -2,14 +2,16 @@ render_status = {
     "ul-park":0,
     "ul-ahn":0,
     "ul-moon":0,
-    "ul-kim":0
+    "ul-kim":0,
+    "mashup":0
 };
 
 status_items = {
     "ul-park":[],
     "ul-ahn":[],
     "ul-moon":[],
-    "ul-kim":[]
+    "ul-kim":[],
+    "mashup":[]
 };
 
 
@@ -36,7 +38,6 @@ function format_date(dd) {
 
 function render(key) {
     render_status[key] += 1;
-    if (render_status[key] == 2) {
 	var _html = ""; 
 	// for (var i = 0 ; i < status_items[key].length; ++i) {
 	// 	_html += status_items[key][i].html;
@@ -46,8 +47,8 @@ function render(key) {
 	    if (typeof (status_items[key][i].html) != "undefined")
 		_html += status_items[key][i].html;
 	}
+        status_items[key] = [];
 	$("ul#" + key).append(_html);
-    }
 }
 
 function fill_content(qry, place) {
@@ -58,6 +59,9 @@ function fill_content(qry, place) {
 	var _items = obj.channel.item;
 	for (var i = 0; i < _items.length; ++i) {
 	    var item = _items[i];
+	    if(i==0) {
+		$("#person-profile_image").attr('src',item.thumbnail); 
+	    }
 	    var _date = new Date(parse_image_date(item.pubDate));
 	    item.pubDate = format_date(_date);
 	    var _tmp = tmpl("item_tmpl_single", item);

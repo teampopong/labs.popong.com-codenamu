@@ -102,7 +102,8 @@ function dispPerson(_id) {
   var id = _id.substr(5),
       person = people[parseInt(id, 10)];
   if (typeof person == 'undefined') return;
-
+  $("#mashup").empty();
+  fill_content(person['name']+' '+'국회의원', "mashup");
   var $panel = $('#panel-person');
   $.each(fields, function (_, fieldname) {
     var raw = person[fieldname] || '',
@@ -152,4 +153,6 @@ $.getJSON('people.json', function (_people) {
   });
 });
 }());
+
+$('#btn_party').hover();
 </script>
