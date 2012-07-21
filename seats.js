@@ -339,7 +339,7 @@ var seatPaths = {
     "blank": "M159,66,180,62,182,73,162,77zz"
 }
 
-window.PG = {};
+window.PG = window.PG || {};
 
 PG.Seats = function (id, width, height) { 
     var R = Raphael(id, width, height);

@@ -1,5 +1,6 @@
 ﻿<script type="text/javascript" src="raphael.js"></script>
 <script type="text/javascript" src="seats.js"></script>
+<script type="text/javascript" src="legend.js"></script>
 <style>
 svg path {
   fill: #333;
@@ -7,8 +8,20 @@ svg path {
   stroke-width: 1;
   stroke-linejoin: round;
 }
+
+#paper {
+	display: inline-block;
+}
+
+#legend {
+	display: inline-block;
+	vertical-align: baseline;
+}
 </style>
+<div>
 <div id="paper"></div>
+<div id="legend"></div>
+</div>
 <script type="text/javascript">
 (function () {
 
@@ -19,70 +32,61 @@ var seats = {},
 
 var colors = {
   nofwins: {
-    "1": "#2E9AFE",
-    "2": "#58FA58",
-    "3": "#F79F81",
-    "4": "#F7D358",
-    "5": "#D8F781",
-    "6": "#9FF781",
-    "7": "#9F81F7"
+    "1": "#e4ffcc",
+    "2": "#92ff33",
+    "3": "#5fcc00",
+    "4": "#479900",
+    "5": "#2f6600",
+    "6": "#183300",
+    "7": "#000000"
   },
 
   sex_estimate: {
-    "1": "#2E9AFE",
-    "2": "#F79F81"
+    "1": "rgb(6,47,173)",
+    "2": "rgb(255,4,4)"
   },
 
   party: {
-    "무소속": "#c0c0c0",
-    "자유선진당": "#007ac3",
-    "새누리당": "#c01920",
-    "민주통합당": "#fdd100",
-    "통합진보당": "#671986",
-    "한나라당": "#618fcb",
-    "통합민주당": "#82a73d",
-    "자유선진당": "#4a78c6",
-    "친박연대": "#5c62ac",
-    "민주노동당": "#dd8d2c",
-    "창조한국당": "#da6760",
-    "열린우리당": "#f3bc3b",
-    "새천년민주당": "#83a739",
-    "자유민주연합": "#3f9e64",
-    "국민통합21": "#4b79c6",
-    "민주국민당": "#3986be",
-    "한국신당": "#4b79c6"
+    "무소속": "rgb(255,1,1)",
+    "한나라당": "rgb(255,132,1)",
+    "통합민주당": "rgb(255,252,1)",
+    "자유선진당": "rgb(3,177,28)",
+    "친박연대": "rgb(3,122,177)",
+    "민주노동당": "rgb(2,12,104)",
+    "창조한국당": "rgb(56,2,104)"
   },
 
   ageclass: {
-    "40": "#F7D358",
-    "50": "#D8F781",
-    "60": "#9FF781",
-    "70": "#9F81F7",
-    "80": "#2E9AFE"
+    "40": "rgb(216,235,251)",
+    "50": "rgb(149,194,230)",
+    "60": "rgb(83,145,196)",
+    "70": "rgb(16,80,132)",
+    "80": "rgb(2,32,56)"
   },
 
   region1: {
-    "강원": "#c0c0c0",
-    "경기": "#007ac3",
-    "경남": "#c01920",
-    "경북": "#fdd100",
-    "광주": "#671986",
-    "대구": "#618fcb",
-    "대전": "#82a73d",
-    "부산": "#4a78c6",
-    "비례대표":  "#5c62ac",
-    "서울": "#dd8d2c",
-    "울산": "#da6760",
-    "인천": "#f3bc3b",
-    "전남": "#83a739",
-    "전북": "#3f9e64",
-    "제주": "#4b79c6",
-    "충남": "#3986be",
-    "충북": "#4b79c6"
+    "강원": "rgb(73,45,31)",
+    "경기": "rgb(106,11,51)",
+    "경남": "rgb(70,66,3)",
+    "경북": "rgb(64,18,83)",
+    "광주": "rgb(183,179,115)",
+    "대구": "rgb(184,184,182)",
+    "대전": "rgb(233,86,17)",
+    "부산": "rgb(1,61,95)",
+    "비례대표":  "rgb(288,223,93)",
+    "서울": "rgb(0,136,160)",
+    "울산": "rgb(170,9,27)",
+    "인천": "rgb(78,161,43)",
+    "전남": "rgb(84,158,171)",
+    "전북": "rgb(209,94,111)",
+    "제주": "rgb(254,222,0)",
+    "충남": "rgb(0,73,56)",
+    "충북": "rgb(199,17,92)"
   }
 };
 
 function setColor(elem, color) {
+  color = color || "transparent";
   elem.node.setAttribute('style', 'fill:'+color+';cursor:pointer;');
 }
 
@@ -93,6 +97,7 @@ function _fill(fieldname) {
       setColor(seats[i], colorset[person[fieldname]]);
     }
   });
+  PG.Legend(colorset, "legend", 30, 11);
 }
 
 var fields = ['name', 'profile_image', 'birthyear', 'birthmonth', 'birthday',
@@ -141,7 +146,7 @@ $.getJSON('people.json', function (_people) {
   PG.Seats('paper', 600, 420).then(function (_seats) {
     seats = _seats;
     registerEvents(seats);
-    _fill('party');
+	_fill('party');
   });
 });
 }());

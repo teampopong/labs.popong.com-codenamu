@@ -20,7 +20,7 @@
         </div>
 
 
-        <div class="span5" id="panel-person" style="display: none;">
+        <div class="span4" id="panel-person" style="display: none;">
 
           <h2 id="person-name">이름</h2>
           <img id="person-profile_image">
