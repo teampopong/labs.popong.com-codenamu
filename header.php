@@ -23,10 +23,42 @@
 
 
       <script type="text/javascript" src="media/bootstrap/js/jquery.js"></script>
+      <script type="text/javascript" src="media/js/common.js"></script>
+      <script type="text/javascript" src="media/js/scratch.js"></script>
+      <script type="text/javascript" src="media/js/zrssfeed/jquery.zrssfeed.js"></script>
+
       <script type="text/javascript" src="media/bootstrap/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<link rel="stylesheet/less" href="media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css">
+	<style>
+	 	ul#mashup {
+			list-style:none;
+			margin:0;
+		}
+		ul#mashup li {
+			border:0;
+		}
+	</style>
 
+  <script type="text/html" id="item_tmpl_single">
+        <% obj.title = stripHTML(unescapeHTML(obj.title)); %>
+          <li>
+              <table>
+                <tr>
+                  <td class="img-wrap"><img style="max-width:50px;max-height:50px;" src="<%=obj.thumbnail%>"></td>
+                  <td style="font-size:0.78em;">&nbsp;&nbsp;<a href="<%=obj.link%>"><%=obj.title%></a></td>
+                </tr>
+              </table>
+              <p style="margin-top:10px;"><%=obj.pubDate%></p>
+          </li>
+      </script>
+
+      <script type="text/html" id="item_tmpl_rss_single">
+          <li>
+              <a href="<%=obj.link%>"><%=obj.title%></a>
+              <p style="margin-top:10px;"><%=obj.pubdate%></p>
+          </li>
+      </script>
 
 
 	
@@ -47,7 +79,7 @@
 </head>
 <body>
     <div class="container">
-		<h1><img src="img/logo.png"></h1>
+		<h1><a href="/"><img src="img/logo.png"></a></h1>
 
       <!-- Main hero unit for a primary marketing message or call to action -->
 

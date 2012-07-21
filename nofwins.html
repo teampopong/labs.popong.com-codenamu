@@ -107,7 +107,8 @@ function dispPerson(_id) {
   var id = _id.substr(5),
       person = people[parseInt(id, 10)];
   if (typeof person == 'undefined') return;
-
+  $("#mashup").empty();
+  fill_content(person['name']+' '+'국회의원', "mashup");
   var $panel = $('#panel-person');
   $.each(fields, function (_, fieldname) {
     var raw = person[fieldname] || '',
@@ -123,6 +124,13 @@ function registerEvents(seats) {
   $('.btnFill').click(function () {
     var fieldname = $(this).data('field');
     _fill(fieldname);
+    $('#the-comment').attr("src","/img/cmt_ageclass.png").show();
+  });
+  $('.btnFill').mouseover(function () {
+    var fieldname = $(this).data('field');
+    $('#the-comment').attr("src","/img/cmt_"+fieldname+".png").css("visibility","visible");
+    $('#the-comment-fixed').css("visibility","visible");
+
   });
 
   $.each(seats, function (_, seat) {
@@ -150,4 +158,6 @@ $.getJSON('people.json', function (_people) {
   });
 });
 }());
+
+$('#btn_party').hover();
 </script>
