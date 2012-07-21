@@ -5,7 +5,7 @@
 
       <div class="row">
 
-        <div class="" style="width:600px;margin:auto;" class="bgcolor:#aaaaaa">
+        <div class="" style="width:800px;margin:auto;" class="bgcolor:#aaaaaa">
 
           <h2>국회 좌석별 국회의원</h2>
 

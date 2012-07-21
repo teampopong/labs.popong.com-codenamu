@@ -2,14 +2,27 @@
 <script type="text/javascript" src="raphael.js"></script>
 <script type="text/javascript" src="seats.js"></script>
 <style>
+#paper {
+	display: inline-block;
+}
+
 svg path {
 	fill: #333;
 	stroke: #666;
 	stroke-width: 1;
 	stroke-linejoin: round;
 }
+
+img[class^="legend"] {
+	vertical-align: baseline;
+}
 </style>
 <div id="paper"></div>
+<img class="legend-ageclass" src="img/label-ageclass.png" style="display:none;">
+<img class="legend-nofwins" src="img/label-nofwins.png" style="display:none;">
+<img class="legend-party" src="img/label-party.png" style="display:none;">
+<img class="legend-sex_estimate" src="img/label-sex_estimate.png" style="display:none;">
+<img class="legend-region1">
 <script type="text/javascript">
 (function () {
 
@@ -94,6 +107,8 @@ function _fill(fieldname) {
 			setColor(seats[i], colorset[person[fieldname]]);
 		}
 	});
+	$('img[class^="legend"]').hide();
+	$('img.legend-'+fieldname).show();
 }
 
 function registerEvents(seats) {
@@ -120,7 +135,7 @@ $.getJSON('people.json', function (_people) {
 	PG.Seats('paper', 600, 420).then(function (_seats) {
 		seats = _seats;
 		registerEvents(seats);
-		_fill('nofwins');
+		_fill('party');
 	});
 });
 }());
