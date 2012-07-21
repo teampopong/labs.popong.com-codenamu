@@ -1,0 +1,100 @@
+{% load cms_tags sekizai_tags menu_tags %}
+<html>
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+      <script type="text/html" id="item_tmpl_single">
+	<% obj.title = stripHTML(unescapeHTML(obj.title)); %>
+	  <li>
+	      <table>
+		<tr>
+		  <td class="img-wrap"><img style="max-width:50px;max-height:50px;" src="<%=obj.thumbnail%>"></td>
+		  <td style="font-size:0.78em;">&nbsp;&nbsp;<a href="<%=obj.link%>"><%=obj.title%></a></td>
+		</tr>
+	      </table>
+	      <p style="margin-top:10px;"><%=obj.pubDate%></p>
+	  </li>
+      </script>
+
+      <script type="text/html" id="item_tmpl_rss_single">
+	  <li>
+	      <a href="<%=obj.link%>"><%=obj.title%></a>
+	      <p style="margin-top:10px;"><%=obj.pubdate%></p>
+	  </li>
+      </script>
+
+     <script type="text/html" id="item_tmpl">
+       <% for ( var i = 0; i < item.length; i++ ) {
+	  item[i].title = stripHTML(unescapeHTML(item[i].title));
+       %>
+	 <li>
+	     <table>
+	       <tr>
+		 <td class="img-wrap"><img style="max-width:50px;max-height:50px;" src="<%=item[i].thumbnail%>"></td>
+	       </tr>
+	     </table>
+	     <a href="<%=item[i].link%>"><%=item[i].title%></a>
+	     <p style=""><%=parse_image_date(item[i].pubDate)%></p>
+	 </li>
+
+       <% }
+       %>
+     </script>
+
+
+     <script type="text/html" id="item_tmpl_rss">
+       <% for ( var i = 0; i < obj.length; i++ ) { %>
+	 <li>
+	     <a href="<%=obj[i].link%>"><%=obj[i].title%></a>
+	     <p style=""><%=obj[i].pubdate%></p>
+	 </li>
+
+       <% }
+       %>
+     </script>
+
+
+
+      <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <script type="text/javascript" src="/media/js/common.js"></script>
+      <script type="text/javascript" src="/media/bootstrap/js/jquery.js"></script>
+      <script type="text/javascript" src="/media/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="/media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+      <script type="text/javascript" src="/media/js/scratch.js"></script>
+      <script type="text/javascript" src="/media/js/zrssfeed/jquery.zrssfeed.js"></script> 
+
+      <link href="/media/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/media/css/scratch.css" rel="stylesheet">
+      {% render_block "css" %}
+  </head>
+  <body style="width:100%;">
+      <div class="person-line">
+	  <h3 style="position:fix;">안철수</h3>
+	  <ul id="ul-ahn">
+	  </ul>	   
+      </div>
+
+      <div class="person-line">
+	  <h3>박근혜</h3>
+	  <ul id="ul-park">
+	  </ul>	   
+      </div>
+
+      <div class="person-line">
+	  <h3>문재인</h3>
+	  <ul id="ul-moon">
+	  </ul>	   
+      </div>
+
+      <div class="person-line">
+	  <h3>김두관</h3>
+	  <ul id="ul-kim">
+	  </ul>	   
+      </div>
+      <div class="clear"></div>
+      <div id="rssResult">
+      </div>
+
+  </body>
+</html>
