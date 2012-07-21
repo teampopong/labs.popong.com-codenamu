@@ -46,49 +46,8 @@
 
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
-
-      <div class="navbar-inner">
-
-        <div class="container">
-
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-
-            <span class="icon-bar"></span>
-
-            <span class="icon-bar"></span>
-
-            <span class="icon-bar"></span>
-
-          </a>
-
-          <a class="brand" href="#">국회 나우</a>
-
-          <div class="nav-collapse">
-
-            <ul class="nav">
-
-              <li><a href="/">국회 자리별 정보보기</a></li>
-              <!-- class="active"-->
-
-              <li><a href="scratch.html">뉴스 피드</a></li>
-              <li><a href="about.php">소개</a></li>
-
-            </ul>
-
-          </div><!--/.nav-collapse -->
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-
     <div class="container">
-
-
+		<h1><img src="img/logo.png"></h1>
 
       <!-- Main hero unit for a primary marketing message or call to action -->
 

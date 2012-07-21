@@ -7,18 +7,13 @@
 
         <div id="panel-seats" class="span7 init-center">
 
-          <h2>국회 좌석별 국회의원</h2>
-
-           <p>아래는 18대국회 국회의원 좌석입니다</p>
-           <p>정보를 보고싶은 국회의원을 선택해주세요</p>
-
-           <p>
-           <a class="btn btnFill" data-field="party" href="#">정당별 &raquo;</a>
-           <a class="btn btnFill" data-field="ageclass" href="#">연령별 &raquo;</a>
-           <a class="btn btnFill" data-field="region1" href="#">지역별 &raquo;</a>
-           <a class="btn btnFill" data-field="sex_estimate" href="#">성별 &raquo;</a>
-           <a class="btn btnFill" data-field="nofwins" href="#">몇선별 &raquo;</a>
-           </p>
+           <div class="force-center">
+			   <a id="btn_party" class="btnFill" data-field="party" href="#">&nbsp;</a>
+			   <a id="btn_ageclass" class="btnFill" data-field="ageclass" href="#">&nbsp;</a>
+			   <a id="btn_region1" class="btnFill" data-field="region1" href="#">&nbsp;</a>
+			   <a id="btn_sex_estimated" class="btnFill" data-field="sex_estimate" href="#">&nbsp;</a>
+			   <a id="btn_nofwins" class="btnFill" data-field="nofwins" href="#">&nbsp;</a>
+           </div>
 
           <?php include "nofwins.html" ?>
 
