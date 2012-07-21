@@ -346,6 +346,7 @@ PG.Seats = function (id, width, height, people, key) {
     var seats = {};
     $.each(seatPaths, function (key, val) {
         seats[key] = R.path(val);
+        seats[key].node.id = 'seat-'+key;
     });
     return $.Deferred().resolve(seats);
 }

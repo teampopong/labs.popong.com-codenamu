@@ -25,15 +25,34 @@
         </div>
 
 
-        <div class="span4">
+        <div class="span4" id="panel-person" style="display: none;">
 
-          <h2>국회의원 정보</h2>
-
-          <p id="info-name">이름</p>
-          <p id="info-pic">나 사진</p>
-          <p id="info-1">정보 1</p>
-          <p id="info-2">정보 2</p>
-          <p id="info-3">정보 3</p>
+          <h2 id="person-name">이름</h2>
+          <img id="person-profile_image">
+          <table class="table table-condensed">
+              <tbody>
+                  <tr>
+                      <th>생년월일</th>
+                      <td>
+                          <span id="person-birthyear"></span>.
+                          <span id="person-birthmonth"></span>.
+                          <span id="person-birthday"></span>
+                      </td>
+                  </tr>
+                  <tr>
+                      <th>소속정당</th>
+                      <td id="person-party"></td>
+                  </tr>
+                  <tr>
+                      <th>학력</th>
+                      <td id="person-edu_details"></td>
+                  </tr>
+                  <tr>
+                      <th>경력</th>
+                      <td id="person-experience"></td>
+                  </tr>
+              </tbody>
+          </table>
 
           <p><a class="btn" href="#">타임라인에 추가하기 &raquo;</a></p>
 

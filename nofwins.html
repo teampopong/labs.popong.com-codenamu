@@ -1,12 +1,15 @@
-﻿<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="raphael.js"></script>
+﻿<script type="text/javascript" src="raphael.js"></script>
 <script type="text/javascript" src="seats.js"></script>
 <style>
 svg path {
-	fill: #333;
-	stroke: #666;
-	stroke-width: 1;
-	stroke-linejoin: round;
+  fill: #333;
+  stroke: #666;
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
+#panel-person td {
+  min-width: 65px;
 }
 </style>
 <div id="paper"></div>
@@ -16,112 +19,133 @@ svg path {
 var ms = 500;
 
 var seats = {},
- 	people = {};
+   people = {};
 
 var colors = {
-	nofwins: {
-		"1": "#2E9AFE",
-		"2": "#58FA58",
-		"3": "#F79F81",
-		"4": "#F7D358",
-		"5": "#D8F781",
-		"6": "#9FF781",
-		"7": "#9F81F7"
-	},
+  nofwins: {
+    "1": "#2E9AFE",
+    "2": "#58FA58",
+    "3": "#F79F81",
+    "4": "#F7D358",
+    "5": "#D8F781",
+    "6": "#9FF781",
+    "7": "#9F81F7"
+  },
 
-	sex_estimate: {
-		"1": "#2E9AFE",
-		"2": "#F79F81"
-	},
+  sex_estimate: {
+    "1": "#2E9AFE",
+    "2": "#F79F81"
+  },
 
-	party: {
-		"무소속": "#c0c0c0",
-		"자유선진당": "#007ac3",
-		"새누리당": "#c01920",
-		"민주통합당": "#fdd100",
-		"통합진보당": "#671986",
-		"한나라당": "#618fcb",
-		"통합민주당": "#82a73d",
-		"자유선진당": "#4a78c6",
-		"친박연대": "#5c62ac",
-		"민주노동당": "#dd8d2c",
-		"창조한국당": "#da6760",
-		"열린우리당": "#f3bc3b",
-		"새천년민주당": "#83a739",
-		"자유민주연합": "#3f9e64",
-		"국민통합21": "#4b79c6",
-		"민주국민당": "#3986be",
-		"한국신당": "#4b79c6"
-	},
+  party: {
+    "무소속": "#c0c0c0",
+    "자유선진당": "#007ac3",
+    "새누리당": "#c01920",
+    "민주통합당": "#fdd100",
+    "통합진보당": "#671986",
+    "한나라당": "#618fcb",
+    "통합민주당": "#82a73d",
+    "자유선진당": "#4a78c6",
+    "친박연대": "#5c62ac",
+    "민주노동당": "#dd8d2c",
+    "창조한국당": "#da6760",
+    "열린우리당": "#f3bc3b",
+    "새천년민주당": "#83a739",
+    "자유민주연합": "#3f9e64",
+    "국민통합21": "#4b79c6",
+    "민주국민당": "#3986be",
+    "한국신당": "#4b79c6"
+  },
 
-	ageclass: {
-		"40": "#F7D358",
-		"50": "#D8F781",
-		"60": "#9FF781",
-		"70": "#9F81F7",
-		"80": "#2E9AFE"
-	},
+  ageclass: {
+    "40": "#F7D358",
+    "50": "#D8F781",
+    "60": "#9FF781",
+    "70": "#9F81F7",
+    "80": "#2E9AFE"
+  },
 
-	region1: {
-		"강원": "#c0c0c0",
-		"경기": "#007ac3",
-		"경남": "#c01920",
-		"경북": "#fdd100",
-		"광주": "#671986",
-		"대구": "#618fcb",
-		"대전": "#82a73d",
-		"부산": "#4a78c6",
-		"비례대표":  "#5c62ac",
-		"서울": "#dd8d2c",
-		"울산": "#da6760",
-		"인천": "#f3bc3b",
-		"전남": "#83a739",
-		"전북": "#3f9e64",
-		"제주": "#4b79c6",
-		"충남": "#3986be",
-		"충북": "#4b79c6"
-	}
+  region1: {
+    "강원": "#c0c0c0",
+    "경기": "#007ac3",
+    "경남": "#c01920",
+    "경북": "#fdd100",
+    "광주": "#671986",
+    "대구": "#618fcb",
+    "대전": "#82a73d",
+    "부산": "#4a78c6",
+    "비례대표":  "#5c62ac",
+    "서울": "#dd8d2c",
+    "울산": "#da6760",
+    "인천": "#f3bc3b",
+    "전남": "#83a739",
+    "전북": "#3f9e64",
+    "제주": "#4b79c6",
+    "충남": "#3986be",
+    "충북": "#4b79c6"
+  }
 };
 
 function setColor(elem, color) {
-	elem.node.setAttribute('style', 'fill:'+color+';cursor:pointer;');
+  elem.node.setAttribute('style', 'fill:'+color+';cursor:pointer;');
 }
 
 function _fill(fieldname) {
-	var colorset = colors[fieldname];
-	$.each(people, function (i, person) {
-		if (typeof seats[i] != 'undefined') {
-			setColor(seats[i], colorset[person[fieldname]]);
-		}
-	});
+  var colorset = colors[fieldname];
+  $.each(people, function (i, person) {
+    if (typeof seats[i] != 'undefined') {
+      setColor(seats[i], colorset[person[fieldname]]);
+    }
+  });
+}
+
+var fields = ['name', 'profile_image', 'birthyear', 'birthmonth', 'birthday',
+    'party', 'edu_details', 'experience']
+
+function dispPerson(_id) {
+  var id = _id.substr(5),
+      person = people[parseInt(id, 10)];
+  if (typeof person == 'undefined') return;
+
+  var $panel = $('#panel-person');
+  $.each(fields, function (_, fieldname) {
+    var raw = person[fieldname] || '',
+        val = raw.replace('||', '<br>')
+                 .replace('|', ',');
+    $('#person-'+fieldname).html(val);
+  });
+  $panel.show();
 }
 
 function registerEvents(seats) {
-	$('.btnFill').click(function () {
-		var fieldname = $(this).data('field');
-		_fill(fieldname);
-	});
+  $('.btnFill').click(function () {
+    var fieldname = $(this).data('field');
+    _fill(fieldname);
+  });
 
-	$.each(seats, function (_, seat) {
-		seat.mouseover(function () {
-			seat.stop().animate({
-				transform: "s1.1 1.1"
-			}, ms, "elastic");
-		}).mouseout(function () {
-			seat.stop().animate({
-				transform: ""
-			}, ms, "elastic");
-		});
-	});
+  $.each(seats, function (_, seat) {
+    seat.mouseover(function () {
+      seat.stop().animate({
+        transform: "s1.1 1.1"
+      }, ms, "elastic");
+    }).mouseout(function () {
+      seat.stop().animate({
+        transform: ""
+      }, ms, "elastic");
+    }).click(function () {
+      var id = seat.node.id;
+      dispPerson(id);
+    });
+  });
 }
 
 $.getJSON('people.json', function (_people) {
-	people = _people;
-	PG.Seats('paper', 600, 420).then(function (_seats) {
-		seats = _seats;
-		registerEvents(seats);
-		_fill('party');
-	});
+  people = _people;
+  PG.Seats('paper', 600, 420).then(function (_seats) {
+    seats = _seats;
+    registerEvents(seats);
+    _fill('party');
+  });
 });
 }());
 </script>

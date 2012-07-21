@@ -22,10 +22,10 @@
 	<script src="js/libs/less-1.3.0.min.js"></script>
 
 
-      <script type="text/javascript" src="/media/bootstrap/js/jquery.js"></script>
-      <script type="text/javascript" src="/media/bootstrap/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="/media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<link rel="stylesheet/less" href="/media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css">
+      <script type="text/javascript" src="media/bootstrap/js/jquery.js"></script>
+      <script type="text/javascript" src="media/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet/less" href="media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css">
 
 
 
