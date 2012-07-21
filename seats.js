@@ -341,7 +341,7 @@ var seatPaths = {
 
 window.PG = {};
 
-PG.Seats = function (id, width, height, people, key) { 
+PG.Seats = function (id, width, height) { 
     var R = Raphael(id, width, height);
     var seats = {};
     $.each(seatPaths, function (key, val) {
