@@ -118,6 +118,13 @@ function registerEvents(seats) {
   $('.btnFill').click(function () {
     var fieldname = $(this).data('field');
     _fill(fieldname);
+    $('#the-comment').attr("src","/img/cmt_ageclass.png").show();
+  });
+  $('.btnFill').mouseover(function () {
+    var fieldname = $(this).data('field');
+    $('#the-comment').attr("src","/img/cmt_"+fieldname+".png").css("visibility","visible");
+    $('#the-comment-fixed').css("visibility","visible");
+
   });
 
   $.each(seats, function (_, seat) {

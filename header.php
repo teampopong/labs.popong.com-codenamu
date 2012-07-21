@@ -47,7 +47,7 @@
 </head>
 <body>
     <div class="container">
-		<h1><img src="img/logo.png"></h1>
+		<h1><a href="/"><img src="img/logo.png"></a></h1>
 
       <!-- Main hero unit for a primary marketing message or call to action -->
 

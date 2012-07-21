@@ -14,6 +14,8 @@
 			   <a id="btn_sex_estimated" class="btnFill" data-field="sex_estimate" href="#">&nbsp;</a>
 			   <a id="btn_nofwins" class="btnFill" data-field="nofwins" href="#">&nbsp;</a>
            </div>
+	<div style="padding-left:100px;width:1500px;"><img id="the-comment" src='' style="text-align:center;height:40px;visibility:hidden;"></div>
+	<div style="padding-left:100px;width:1500px;"><img id="the-comment-fixed" src='/img/cmt_click.png' style="text-align:center;height:30px;visibility:hidden;"></div>
 
           <?php include "nofwins.html" ?>
 
