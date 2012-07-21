@@ -54,13 +54,14 @@
 
           </a>
 
-          <a class="brand" href="#">코드나무 8팀</a>
+          <a class="brand" href="#">국회 나우</a>
 
           <div class="nav-collapse">
 
             <ul class="nav">
 
-              <li class="active"><a href="/">국회 자리별 정보보기</a></li>
+              <li><a href="/">국회 자리별 정보보기</a></li>
+              <!-- class="active"-->
 
               <li><a href="about.php">소개</a></li>
 

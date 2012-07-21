@@ -5,7 +5,7 @@
 
       <div class="row">
 
-        <div class="span8" class="bgcolor:#aaaaaa">
+        <div class="" style="width:600px;margin:auto;" class="bgcolor:#aaaaaa">
 
           <h2>국회 좌석별 국회의원</h2>
 
@@ -25,45 +25,18 @@
         </div>
 
 
-        <div class="span4">
+        <!--div class="span4">
 
           <h2>국회의원 정보</h2>
 
-          <p>박근혜</p>
+          <p id="info-name">이름</p>
+          <p id="info-pic">나 사진</p>
+          <p id="info-1">정보 1</p>
+          <p id="info-2">정보 2</p>
+          <p id="info-3">정보 3</p>
 
-          <p><a class="btn" href="#">상세정보 보기 &raquo;</a></p>
+          <p><a class="btn" href="#">타임라인에 추가하기 &raquo;</a></p>
 
-        </div>
+        </div-->
 
-      </div>
-
-
-
-      <hr>
-
-
-
-      <footer>
-
-        <p>&copy; 코드나무 8팀</p>
-
-      </footer>
-
-
-
-    </div> <!-- /container -->
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-
-
-
-<script src="js/libs/bootstrap/bootstrap.min.js"></script>
-
-
-
-<script src="js/script.js"></script>
-
-</body>
-</html>
+<?php include "footer.php" ?>
