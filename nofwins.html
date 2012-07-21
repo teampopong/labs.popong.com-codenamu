@@ -1,35 +1,114 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>대한민국 국회 본회의장</title>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="raphael.js"></script>
-        <script type="text/javascript" src="seats.js"></script>
-        <link rel="stylesheet" type="text/css" href="seats.css">
-    </head>
-    <body>
-        <div id="paper"></div>
-        <script type="text/javascript">
-		var colors = {
-			"1": "#2E9AFE",
-			"2": "#58FA58",
-			"3": "#F79F81",
-			"4": "#F7D358",
-			"5": "#D8F781",
-			"6": "#9FF781",
-			"7": "#9F81F7"
-		};
+﻿<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="raphael.js"></script>
+<script type="text/javascript" src="seats.js"></script>
+<style>
+svg path {
+	fill: #333;
+	stroke: #666;
+	stroke-width: 1;
+	stroke-linejoin: round;
+	cursor: pointer;
+}
+</style>
+<div id="paper"></div>
+<script type="text/javascript">
+(function () {
 
-		$.getJSON('people.json', function (people) {
-			PG.Seats('paper', 600, 420).then(function (seats) {
-				$.each(people, function (i, person) {
-					if (typeof seats[i] != 'undefined') {
-						seats[i].node.setAttribute('style', 'fill:'+colors[person.nofwins]);
-					}
-				});
-			});
-		});
-        </script>
-    </body>
-</html>
+var seats = {},
+ 	people = {};
+
+var colors = {
+	nofwins: {
+		"1": "#2E9AFE",
+		"2": "#58FA58",
+		"3": "#F79F81",
+		"4": "#F7D358",
+		"5": "#D8F781",
+		"6": "#9FF781",
+		"7": "#9F81F7"
+	},
+
+	sex_estimate: {
+		"1": "#2E9AFE",
+		"2": "#F79F81"
+	},
+
+	party: {
+		"무소속": "#c0c0c0",
+		"자유선진당": "#007ac3",
+		"새누리당": "#c01920",
+		"민주통합당": "#fdd100",
+		"통합진보당": "#671986",
+		"한나라당": "#618fcb",
+		"통합민주당": "#82a73d",
+		"자유선진당": "#4a78c6",
+		"친박연대": "#5c62ac",
+		"민주노동당": "#dd8d2c",
+		"창조한국당": "#da6760",
+		"열린우리당": "#f3bc3b",
+		"새천년민주당": "#83a739",
+		"자유민주연합": "#3f9e64",
+		"국민통합21": "#4b79c6",
+		"민주국민당": "#3986be",
+		"한국신당": "#4b79c6"
+	},
+
+	ageclass: {
+		"40": "#F7D358",
+		"50": "#D8F781",
+		"60": "#9FF781",
+		"70": "#9F81F7",
+		"80": "#2E9AFE"
+	},
+
+	region1: {
+		"강원": "#c0c0c0",
+		"경기": "#007ac3",
+		"경남": "#c01920",
+		"경북": "#fdd100",
+		"광주": "#671986",
+		"대구": "#618fcb",
+		"대전": "#82a73d",
+		"부산": "#4a78c6",
+		"비례대표":  "#5c62ac",
+		"서울": "#dd8d2c",
+		"울산": "#da6760",
+		"인천": "#f3bc3b",
+		"전남": "#83a739",
+		"전북": "#3f9e64",
+		"제주": "#4b79c6",
+		"충남": "#3986be",
+		"충북": "#4b79c6"
+	}
+};
+
+function setColor(elem, color) {
+	elem.node.setAttribute('style', 'fill:'+color);
+}
+
+function _fill(fieldname) {
+	var colorset = colors[fieldname];
+	$.each(people, function (i, person) {
+		if (typeof seats[i] != 'undefined') {
+			setColor(seats[i], colorset[person[fieldname]]);
+		}
+	});
+}
+
+function registerEvents() {
+	$('.btnFill').click(function () {
+		var fieldname = $(this).data('field');
+		_fill(fieldname);
+	});
+}
+
+$.getJSON('people.json', function (_people) {
+	people = _people;
+	PG.Seats('paper', 600, 420).then(function (_seats) {
+		seats = _seats;
+		registerEvents();
+		_fill('nofwins');
+	});
+});
+}());
+</script>

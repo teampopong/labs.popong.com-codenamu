@@ -12,10 +12,13 @@
            <p>아래는 18대국회 국회의원 좌석입니다</p>
            <p>정보를 보고싶은 국회의원을 선택해주세요</p>
 
-          <p><a class="btn" href="#">정당별 &raquo;</a>
-          <a class="btn" href="#">연령별 &raquo;</a>
-          <a class="btn" href="#">지역별 &raquo;</a>
-          <a class="btn" href="#">몇선별 &raquo;</a></p>
+           <p>
+           <a class="btn btnFill" data-field="party" href="#">정당별 &raquo;</a>
+           <a class="btn btnFill" data-field="ageclass" href="#">연령별 &raquo;</a>
+           <a class="btn btnFill" data-field="region1" href="#">지역별 &raquo;</a>
+           <a class="btn btnFill" data-field="sex_estimate" href="#">성별 &raquo;</a>
+           <a class="btn btnFill" data-field="nofwins" href="#">몇선별 &raquo;</a>
+           </p>
 
           <?php include "nofwins.html" ?>
 
