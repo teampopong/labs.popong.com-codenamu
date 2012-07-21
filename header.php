@@ -60,7 +60,8 @@
 
             <ul class="nav">
 
-              <li class="active"><a href="/">국회 자리별 정보보기</a></li>
+              <li><a href="/">국회 자리별 정보보기</a></li>
+              <!-- class="active"-->
 
               <li><a href="about.php">소개</a></li>
 
