@@ -5,7 +5,7 @@
 
       <div class="row">
 
-        <div class="" style="width:800px;margin:auto;" class="bgcolor:#aaaaaa">
+        <div class="span8" class="bgcolor:#aaaaaa">
 
           <h2>국회 좌석별 국회의원</h2>
 
@@ -25,7 +25,7 @@
         </div>
 
 
-        <!--div class="span4">
+        <div class="span4">
 
           <h2>국회의원 정보</h2>
 
@@ -37,6 +37,6 @@
 
           <p><a class="btn" href="#">타임라인에 추가하기 &raquo;</a></p>
 
-        </div-->
+        </div>
 
 <?php include "footer.php" ?>
