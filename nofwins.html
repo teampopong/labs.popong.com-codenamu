@@ -7,12 +7,13 @@ svg path {
 	stroke: #666;
 	stroke-width: 1;
 	stroke-linejoin: round;
-	cursor: pointer;
 }
 </style>
 <div id="paper"></div>
 <script type="text/javascript">
 (function () {
+
+var ms = 500;
 
 var seats = {},
  	people = {};
@@ -83,7 +84,7 @@ var colors = {
 };
 
 function setColor(elem, color) {
-	elem.node.setAttribute('style', 'fill:'+color);
+	elem.node.setAttribute('style', 'fill:'+color+';cursor:pointer;');
 }
 
 function _fill(fieldname) {
@@ -95,10 +96,22 @@ function _fill(fieldname) {
 	});
 }
 
-function registerEvents() {
+function registerEvents(seats) {
 	$('.btnFill').click(function () {
 		var fieldname = $(this).data('field');
 		_fill(fieldname);
+	});
+
+	$.each(seats, function (_, seat) {
+		seat.mouseover(function () {
+			seat.stop().animate({
+				transform: "s1.1 1.1"
+			}, ms, "elastic");
+		}).mouseout(function () {
+			seat.stop().animate({
+				transform: ""
+			}, ms, "elastic");
+		});
 	});
 }
 
@@ -106,7 +119,7 @@ $.getJSON('people.json', function (_people) {
 	people = _people;
 	PG.Seats('paper', 600, 420).then(function (_seats) {
 		seats = _seats;
-		registerEvents();
+		registerEvents(seats);
 		_fill('nofwins');
 	});
 });
