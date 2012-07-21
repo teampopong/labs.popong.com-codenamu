@@ -21,6 +21,14 @@
 
 	<script src="js/libs/less-1.3.0.min.js"></script>
 
+
+      <script type="text/javascript" src="/media/bootstrap/js/jquery.js"></script>
+      <script type="text/javascript" src="/media/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="/media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet/less" href="/media/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css">
+
+
+
 	
 
 	<!-- Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
@@ -63,6 +71,7 @@
               <li><a href="/">국회 자리별 정보보기</a></li>
               <!-- class="active"-->
 
+              <li><a href="scratch.html">뉴스 피드</a></li>
               <li><a href="about.php">소개</a></li>
 
             </ul>
