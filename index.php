@@ -5,7 +5,7 @@
 
       <div class="row">
 
-        <div class="span8" class="bgcolor:#aaaaaa">
+        <div id="panel-seats" class="span7 init-center">
 
           <h2>국회 좌석별 국회의원</h2>
 
@@ -25,7 +25,7 @@
         </div>
 
 
-        <div class="span4" id="panel-person" style="display: none;">
+        <div class="span5" id="panel-person" style="display: none;">
 
           <h2 id="person-name">이름</h2>
           <img id="person-profile_image">

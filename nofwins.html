@@ -11,6 +11,12 @@ svg path {
 #panel-person td {
   min-width: 65px;
 }
+
+.init-center {
+  margin: 0 auto;
+  float: none;
+}
+
 </style>
 <div id="paper"></div>
 <script type="text/javascript">
@@ -114,6 +120,7 @@ function dispPerson(_id) {
                  .replace('|', ',');
     $('#person-'+fieldname).html(val);
   });
+  $('#panel-seats').removeClass('init-center');
   $panel.show();
 }
 
