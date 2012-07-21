@@ -54,7 +54,7 @@
 
           </a>
 
-          <a class="brand" href="#">코드나무 8팀</a>
+          <a class="brand" href="#">국회 나우</a>
 
           <div class="nav-collapse">
 
