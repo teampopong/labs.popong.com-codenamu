@@ -124,7 +124,6 @@ function registerEvents(seats) {
   $('.btnFill').click(function () {
     var fieldname = $(this).data('field');
     _fill(fieldname);
-    $('#the-comment').attr("src","img/cmt_ageclass.png").show();
   });
   $('.btnFill').mouseover(function () {
     var fieldname = $(this).data('field');
@@ -155,9 +154,9 @@ $.getJSON('people.json', function (_people) {
     seats = _seats;
     registerEvents(seats);
 	_fill('party');
+    $('#btn_party').mouseover();
   });
 });
 }());
 
-$('#btn_party').hover();
 </script>
