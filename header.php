@@ -12,7 +12,6 @@
 
   <meta name="description" content="국회의원 자리별 정보보기">
   <meta name="author" content="코드나무 8팀">
-  <meta name="viewport" content="width=device-width">
 
   <link rel="stylesheet/less" href="less/style.less">
 
@@ -66,7 +65,7 @@
 
 </head>
 <body>
-    <div id="banner"><img src="img/banner-beta-right-90.png"></div>
+	<div id="banner"><img src="img/banner-beta-right-90.png"></div>
     <div class="container">
       <h1><a href="/"><img src="img/logo.png"></a></h1>
       <!-- Main hero unit for a primary marketing message or call to action -->
