@@ -66,8 +66,8 @@
 
 </head>
 <body>
+    <div id="banner"><img src="img/banner-beta-right-90.png"></div>
     <div class="container">
-      <div id="banner"><img src="img/banner-beta-right-90.png"></div>
       <h1><a href="/"><img src="img/logo.png"></a></h1>
       <!-- Main hero unit for a primary marketing message or call to action -->
       <!--div class="hero-unit">
