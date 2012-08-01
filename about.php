@@ -26,7 +26,7 @@
 
           <h2>멤버 소개</h2>
 
-           <p>코드나무 8팀! 마스터-슬레이브</p>
+           <p>코드나무 8팀! 마스터-슬레이브 <a href="mailto:contact@popong.com"><i class="icon-envelope"></i></a></p>
            <p><pre>
 윤주희 - 디자이너
 강철 - 개발
