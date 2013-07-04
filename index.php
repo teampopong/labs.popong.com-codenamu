@@ -4,11 +4,11 @@
 <div class="row">
   <div id="panel-seats" class="span7 init-center">
     <div class="force-center">
-       <a id="btn_party" class="btnFill" data-field="party" href="#">&nbsp;</a>
-       <a id="btn_ageclass" class="btnFill" data-field="ageclass" href="#">&nbsp;</a>
-       <a id="btn_region1" class="btnFill" data-field="region1" href="#">&nbsp;</a>
-       <a id="btn_sex_estimated" class="btnFill" data-field="sex_estimate" href="#">&nbsp;</a>
-       <a id="btn_nofwins" class="btnFill" data-field="nofwins" href="#">&nbsp;</a>
+       <a id="btn_party" class="btnFill" data-field="party" href="#"><b>정당별</b><br>Party</a>
+       <a id="btn_ageclass" class="btnFill" data-field="ageclass" href="#"><b>연령별</b><br>Age</a>
+       <a id="btn_region1" class="btnFill" data-field="region1" href="#"><b>지역별</b><br>Region</a>
+       <a id="btn_sex_estimated" class="btnFill" data-field="sex_estimate" href="#"><b>성별</b><br>Gender</a>
+       <a id="btn_nofwins" class="btnFill" data-field="nofwins" href="#"><b>당선횟수별</b><br>n(Elected)</a>
     </div>
 
     <div style="margin-top:25px;padding-left:100px;">
