@@ -67,7 +67,7 @@
 <body>
 	<div id="banner"><img src="img/banner-beta-right-90.png"></div>
     <div class="container">
-      <h1><a href="/"><img src="img/logo.png"></a></h1>
+      <h1><img src="img/logo.png"><small><i>Korea National Assembly, Now (18th)</i></small></h1>
       <!-- Main hero unit for a primary marketing message or call to action -->
       <!--div class="hero-unit">
         <h1>Hello, world2!</h1>

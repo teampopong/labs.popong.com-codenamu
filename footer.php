@@ -3,7 +3,8 @@
       <hr>
 
       <footer>
-        <p>&copy; 코드나무 8팀 <a href="about.php">소개</a></p>
+        <span>&copy; 코드나무 8팀 <a href="about.php">소개</a></span>
+        <span class="pull-right"><a href="https://github.com/teampopong/nanow">Github</a></span>
       </footer>
     </div> <!-- /container -->
 
