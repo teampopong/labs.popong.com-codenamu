@@ -65,12 +65,10 @@
 
 </head>
 <body>
-	<div id="banner"><img src="img/banner-beta-right-90.png"></div>
-    <div class="container">
-      <h1><img src="img/logo.png"><small><i>Korea National Assembly, Now (18th)</i></small></h1>
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <!--div class="hero-unit">
-        <h1>Hello, world2!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-      </div-->
+  <div id="banner"><img src="img/banner-beta-right-90.png"></div>
+  <div class="container">
+  <div class="alert alert-error">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Warning!</strong> 본 프로젝트는 18대 국회(2008-2012)를 대상으로 진행된 것으로, 더 이상 유효하지 않습니다.
+  </div>
+  <h1><img src="img/logo.png"><small><i>Korea National Assembly, Now</i></small></h1>
