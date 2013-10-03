@@ -14,3 +14,7 @@
 - [Claire Yun](https://github.com/weirdclaire)
 
 (In alphabetical order)
+
+
+## License
+In the public domain.
